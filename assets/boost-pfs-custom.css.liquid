@@ -1,0 +1,81 @@
+/*********************** Custom CSS for Boost Filter & Search  ************************/
+{% assign breakpointMobile = '767px' %}
+{% assign breakpointDesktop = '768px' %}
+{% assign searchBoxMobileHeight = '64px' %}
+
+/**************************** Place your custom css below  ****************************/
+.boost-pfs-filter-wrapper {
+	overflow: visible;
+}
+
+.boost-pfs-filter-tree {
+	width: 20%;
+	float: left;
+}
+
+.boost-pfs-filter-right {
+	width: 80%;
+	float: right;
+}
+
+.boost-pfs-filter-right .boost-pfs-filter-products {
+	width: 100%;
+	float: right;
+	overflow: visible;
+	height: auto !important;
+}
+
+.boost-pfs-filter-tree-mobile {
+	padding-left: 22px;
+}
+
+/* Search */
+.boost-pfs-search-result-number {
+	margin-top: 10px;
+}
+
+/**** Custom Search result toolbar ****/
+.boost-pfs-search-result-toolbar {
+	display: flex;
+	align-items: center;
+	margin: 35px 0;
+	border-top: 1px solid #ededed;
+	border-bottom: 1px solid #ededed;
+	white-space: nowrap;
+}
+
+.boost-pfs-search-result-toolbar .boost-pfs-search-result-item:first-child {
+	flex: auto;
+}
+
+.boost-pfs-search-result-toolbar .boost-pfs-search-result-panel-controls {
+	padding: 17px 0;
+	margin: 0;
+}
+
+@media screen and (min-width: {{breakpointDesktop}}) {
+  	.boost-pfs-filter-wrapper {
+		margin: 0;
+	}
+}
+@media screen and (max-width: {{breakpointMobile}}) {
+  	.boost-pfs-filter-tree {
+		display: none;
+		width: 100%;
+		float: none;
+	}
+
+	.boost-pfs-filter-right,
+	.boost-pfs-filter-right .boost-pfs-filter-products {
+		width: auto;
+		float: none;
+	}
+
+	#CollectionAjaxContent .grid {
+		margin-left: 0;
+	}
+
+	.boost-pfs-search-result-toolbar .boost-pfs-search-total-result {
+		display: none;
+	}
+}

@@ -1,0 +1,797 @@
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500&family=Roboto+Condensed:wght@400;700&family=Yeseva+One&display=swap');
+
+
+        body#how-to-use-youpay img {
+          width: unset !important;
+          height: auto; 
+        }
+
+        .full-width-c{
+
+            background-color: #ffffff;
+            background-image: url(https://cdn.shopify.com/s/files/1/2320/3313/files/yp-bg-gradient.png?v=1651015877);
+                background-position: top center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: relative;
+            }
+
+        .full-width-dark{
+                width: 100%;
+                background-color: #000;
+                background-position: top center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                position: relative;
+            }
+
+            .full-width-w{
+                background-color: #ffffff;
+                position: relative;
+            }
+
+              .moreinfo .full-width-w {
+                background: linear-gradient(1deg, #f9f7f2, white);
+            }
+
+            .yp-hero .yp-container {
+                padding: 150px 30px 30px 30px;
+                min-height: 520px !important;
+                position: relative;
+                z-index: 2;
+            }
+
+            .yp-container{
+                max-width: 1300px;
+                padding: 100px 30px;
+                margin: auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+
+            }
+
+            @media (max-width: 1024px){
+              
+              .yp-hero h2 {font-size: 26px;line-height: 1em;}
+
+              .howtoyoupay-page h1 {font-size: 36px;line-height: 1em;}
+
+              .yp-hero p{font-size: 18px;line-height: 1.2em;}
+              
+              
+
+                .yp-hero h1 {
+                    margin-top: 30px !important;
+                }
+
+                .yp-hero h2 {
+                    padding-left: 5% !important;
+                }
+
+                h3.subheading {
+                    margin-left: 5% !important;
+                }
+
+                .moreinfo h3.right-teal {
+                    margin-left: 5%;
+                    text-align: left;
+                }
+
+                .moreinfo h1 {
+                    margin-bottom: 10px;
+                }
+
+                .col-50-hero{
+                text-align: left;
+                width: 80% !important;
+                 }
+
+                .yp-container{
+                    flex-direction: column !important;
+                }
+
+                .yp-hero .yp-container{
+                    padding-top:80px;
+                }
+
+                .col-100, .col-90, .col-80, .col-70, .col-66, .col-60, .col-50, .col-40, .col-33, .col-30, .col-20, .col-10{
+                    width: 100% !important;
+                    margin: auto;
+                    text-align: left;
+                }
+
+                .img{
+                    text-align: left !important;
+                }
+
+                .heavy-padding-box {
+                	text-align: left !important;
+                 	padding: 20px 20px 20px 0 !important;
+                }
+
+                .yp-hero p {
+                    max-width: unset !important;
+                    padding: 0px !important;
+                }
+
+                img.yp-header-logo {
+                  position: unset !important;
+                  margin-top: -60px;
+                  width: 310px !important;
+                  max-width: 45%;
+                }
+
+                .yp-hero .hero-yp {
+                  max-width: 100% !important;
+                  margin-bottom: 0px !important;
+                }
+
+                img.left-triangle-2, img.top-triangle, img.left-triangle-top, img.right-triangle-1 {
+                  display: none !important;
+                }
+
+                .col-25{
+                    width: 90% !important;
+                    margin: auto;
+                    text-align: center;
+                }
+
+                .howtosteps .yp-container {
+                flex-direction: column !important;
+                flex-wrap: wrap;
+                }
+
+            }
+
+
+
+
+
+            .col-100{
+                width: 100%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-90{
+                width: 90%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-80{
+                width: 80%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-70{
+                width: 70%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-66{
+                width: 66%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-60{
+                width: 60%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-50{
+                width: 50%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-40{
+                width: 40%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-33{
+                width: 33%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-30{
+                width: 30%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-25{
+                width: 25%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-20{
+                width: 20%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+            .col-10{
+                width: 10%;
+                flex-direction: column;
+                flex-wrap: wrap;
+            }
+
+            .col-50-hero{
+                width: 50%;
+                flex-direction: column;
+                flex-wrap: wrap;
+                text-align: right;
+            }
+
+            .faq p {
+                margin-top: 50px;
+            }
+
+            .faq .yp-container {
+                align-items: flex-start !important;
+            }
+
+            .yp-accordion {
+                font-family: 'Kanit', sans-serif;
+                font-size: 24px;
+                font-weight: 300;
+                background: #F4F5F5;
+                color: #2F3A93;
+                cursor: pointer;
+                padding: 25px 30px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+                box-shadow: 0px 0px 20px #48a0d10f;
+            }
+
+            .active, .yp-accordion:hover {
+                color: #2d2d2d;
+            }
+
+            .panel {
+                font-family: 'Kanit', sans-serif;
+            background: #F4F5F5;
+            cursor: pointer;
+            padding: 0 30px;
+            overflow: hidden;
+            transition: 0.2s ease-out;
+            margin-bottom: 10px;
+            z-index: 3;
+              padding-bottom: 15px;
+            }
+
+            .panel p{
+            font-size: 18px;
+              color: #000 !important;
+              margin-top: 0px;
+              text-align: left !important;
+            }
+
+            .howtoyoupay-page .panel {
+                display: none;
+            }
+
+            .howtoyoupay-page .panel:active {
+                display: block;
+            }
+
+            button.yp-accordion.active {
+                margin-bottom: 0px !important;
+            }
+
+            button.yp-accordion {
+                margin-bottom: 10px;
+            }
+
+            .padding-box{
+                padding: 15px;
+            }
+
+            .right-padding-box{
+                padding: 50px 15px;
+                text-align: right;
+            }
+
+            .heavy-padding-box{
+                padding: 35px;
+            }
+
+            button.yp-accordion {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            button.yp-accordion.active img.yp-icon {
+                transform: rotate(180deg);
+                transition: 0.2s;
+            }
+
+            button.yp-accordion yp-img.yp-icon {
+                transition: 0.2s;
+            }
+
+
+
+            .howtoyoupay-page h1{
+            font-family:'Yeseva One',sans-serif !important;
+            font-style: normal;
+            margin: 0 0 8px 0;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 44px;
+            letter-spacing: 0.01em;
+            color: #2d2d2d;
+            text-transform: none !important;
+            }
+
+            h3.subheading{
+                margin-left: 5% !important;
+                font-family:'Kanit',sans-serif !important;
+                text-transform: none;
+                font-weight: 400 !important;
+                font-size: 22px;
+            }
+
+            .full-width-w h3.subheading{
+                color: #0cd9dc !important
+            }
+
+            .full-width-c h3.subheading{
+                color: #F796B9 !important;
+            }
+
+            .full-width-dark h3.subheading{
+                color: #ffffff !important;
+            }
+
+            .full-width-w h2{
+                color: #2d2d2d !important;
+            }
+
+            .full-width-c h2{
+                color: #2d2d2d !important;
+            }
+
+            .full-width-dark h2{
+                color: #ffffff !important;
+            }
+
+            .howtoyoupay-page h2{
+            font-family:'Yeseva One',sans-serif !important;
+            font-style: normal;
+            margin: 0 0 8px 0;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 36px;
+            letter-spacing: 0.01em;
+            text-transform: none;
+            }
+
+            .howtoyoupay-page h3 {
+            font-family: 'Yeseva One',sans-serif;
+            font-style: normal;
+            margin: 0 0 8px 0;
+            font-size: 24px;
+            line-height: 26px;
+            color: #2d2d2d;
+            font-weight: 400;
+            text-transform: none;
+            }
+
+            .benefits h3 {
+                color: #2d2d2d;
+            }
+
+            .benefits h3.right-teal, .benefits h3.right-pink {
+                  margin-left: 5% !important;
+            }
+
+            h3.right-pink {
+                margin: 0px 0px 0px 5%;
+                color: #F796B9;
+                font-family:'Kanit',sans-serif !important;
+                text-transform: none;
+                font-weight: 400;
+                font-size: 22px;
+            }
+
+
+
+            .howtosteps .col-25 h3.right-pink, .howtosteps .col-25 h3.right-teal, .faq h3.right-pink{
+                text-align: center;
+                font-family:'Kanit',sans-serif !important;
+            }
+
+            h3.right-teal {
+                font-weight: 400;
+                font-size: 22px;
+                margin: 0px 0px 0px 10%;
+                color: #0CD9DC;
+                font-family:'Kanit',sans-serif !important;
+                text-transform: none;
+            }
+
+            .howtoyoupay-page p{
+            font-family:'Kanit',sans-serif !important;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 25px;
+            }
+
+            .full-width-dark p{
+            color: #fff;
+            }
+
+            .full-width-w, .full-width-c p{
+            color: #2d2d2d;
+            }
+
+            .howtoyoupay-page p{
+            font-family:'Kanit',sans-serif !important;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 25px;
+            }
+
+            .moreinfo h1 {
+                margin-bottom: 45px;
+            }
+
+            .yp-hero h1{
+                padding-right: 5%;
+                font-family:'Yeseva One',sans-serif !important;
+                color: #fff;
+                font-weight: 400;
+                text-transform: none;
+            }
+
+            .yp-hero h2{
+                font-size: 32px;
+                padding-left: 12%;
+                color: #fff !important;
+                font-family:'Kanit',sans-serif !important;
+                font-weight: 400;
+                  margin-bottom: 20px;
+            }
+
+            h3.right-teal, h3.right-pink {
+                  margin-bottom: 20px !important;
+              }
+
+            .yp-hero p{padding-right: 15%; color: #fff; font-size: 20px; }
+
+            .howtoyoupay-page .yp-hero .hero-yp {
+                width: 100%;
+                max-width: 100%;
+                margin-left: 0PX;
+                margin-bottom: -30%;
+            }
+
+            .howtoyoupay-page img.yp-header-logo {
+                position: absolute;
+                top: 60px;
+            }
+
+            .howtoyoupay-page img.right-banner {
+                position: absolute;
+                right: 0px;
+            }
+
+            .howtoyoupay-page img.left-banner {
+                position: absolute;
+                left: 0px;
+            }
+
+            .howtoyoupay-page h2.right-teal {
+                font-weight: 400;
+                margin: 0px 0px 0px 5%;
+                text-align: center;
+                color: #708585;
+                font-family:'Yeseva One',sans-serif !important;
+                font-weight: 400;
+                text-transform: uppercase;
+            }
+
+            img.left-triangle-1 {
+                position: absolute;
+                left: 0px;
+                z-index: 1;
+            }
+
+            img.left-triangle-2 {
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+                z-index: 1;
+            }
+
+            img.top-triangle {
+                position: absolute;
+                left: 520px;
+                top: 0px;
+                z-index: 1;
+            }
+
+            img.left-triangle-top {
+                position: absolute;
+                left: 0px;
+                bottom: 50%;
+                z-index: 1;
+            }
+
+            .howtosteps .yp-container {
+                align-items: flex-start;
+            }
+
+            .howtosteps .yp-container .col-25 {
+                margin-top: 30px;
+            }
+
+            img.right-triangle-1 {
+                position: absolute;
+                right: 0px;
+                margin-top: -300px;
+                z-index: 1;
+            }
+
+            .col-50 img.benefits-yp{
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+
+            .col-25 img.yp-icon {
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .faq a {
+                color: #2d2d2d;
+                text-decoration: underline;
+            }
+
+            .faq .col-66 {
+                z-index: 3;
+            }
+
+            .moreinfo .col-100 {
+                z-index: 3;
+            }
+            .moreinfo h3.right-teal {
+              text-align: RIGHT;
+              margin-RIGHT: 15%;
+              color: #0CD9DC;
+              }
+
+
+       @media(max-width: 700px){
+         .moreinfo h1 {
+			    margin-bottom: 15px;
+		}
+
+           .moreinfo h3.right-teal {
+             text-align: left;
+             margin: 0px;
+             font-size: 20px;
+           }
+        }
+
+        img.learn-more-button {
+            max-width: 100%;
+        }
+
+
+            </style>
+
+    <div class="howtoyoupay-page">
+        <div class="yp-hero">
+            <div class="full-width-dark">
+                <img class="right-banner" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-pattern-banner-top.png?v=1651015876" alt="Patterned Banner">
+                <img class="top-triangle" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-top-tri.png?v=1651015876" alt="Triangle Pattern">
+                <img class="left-triangle-top" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-left-top-tri.png?v=1651015876" alt="Triangle Pattern">
+                    <div class="yp-container">
+
+
+                        <div class="col-50">
+                            <img class="yp-header-logo" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-logo.png?v=1651015876" alt="YouPay Logo">
+                            <h1>You shop, they pay</h1>
+                            <h2>welcome to multiplayer shopping</h2>
+                            <p> Shop online and send your cart to another person with a single click using YouPay! Get the items you actually want and make buying them simpler than ever – welcome to multiplayer shopping at <span style="font-weight: 500;">HoMie</span>.</p>
+                        </div>
+                        <div class="col-50-hero">
+                            <img class="hero-yp" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-homie-hero.png?v=1651015876" alt="hero image">
+                         </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="howtosteps">
+            <div class="full-width-c">
+                <img class="left-banner" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-pattern-banner-left.png?v=1651015876" alt="Patterned Banner">
+                    <div class="yp-container">
+                        <div class="col-100">
+                            <h2></h2>
+                            <h3 class="subheading"></h3>
+                        </div>
+                        <div class="col-25">
+                            <div class="padding-box">
+                                <img class="yp-icon" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-Iicon-1.png?v=1651017742" alt="Step 1">
+                                <h3>Add what you like</h3><h3 class="right-pink">to your cart</h3>
+                                <p>Create your cart on <span style="font-weight: 500;">HoMie</span> with the items you want.</p>
+                            </div>
+                         </div>
+                        <div class="col-25">
+                            <div class="padding-box">
+                                <img class="yp-icon" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-Iicon-2.png?v=1651015876" alt="Step 2">
+                                <h3>Create your</h3><h3 class="right-teal">YouPay link</h3>
+                                <p>Click the <span style="font-weight: 500;">YouPay</span> button on the product or cart page, then enter your details. </p>
+                            </div>
+                       </div>
+                        <div class="col-25">
+                            <div class="padding-box">
+                                <img class="yp-icon" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-Iicon-3.png?v=1651015876" alt="Step 3">
+                                <h3>Share your</h3><h3 class="right-pink">YouPay link</h3>
+                              <p>Congrats, your cart is now a shareable <span style="font-weight: 500;">YouPay</span> link! Send it to whoever you would like to pay for your order - parents, partners, mates, whoever!</p>
+                            </div>
+                       </div>
+                        <div class="col-25">
+                            <div class="padding-box">
+                                <img class="yp-icon" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-Iicon-4.png?v=1651015876" alt="Step 4">
+                                <h3>Someone else </h3><h3 class="right-teal">pays for your order</h3>
+                                <p>The person receiving the link can instantly pay for the order and you get the order confirmation to know it’s been paid for – easy!</p>
+                            </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="benefits">
+            <div class="full-width-w">
+                <img class="right-banner" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-pattern-banner-right.png?v=1651015876" alt="Patterned Banner">
+                    <div class="yp-container">
+                        <div class="col-100">
+                            <h2>What are the benefits</h2>
+                            <h3 class="subheading">of YouPaying my order?</h3>
+                        </div>
+
+                        <div class="col-50">
+                            <div class="heavy-padding-box">
+                            <img class="benefits-yp" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-sharing-caring.png?v=1651015876" alt="Share your link">
+                            <h3>Sharing is caring</h3><h3 class="right-pink">and now easy!</h3>
+                        <p>With YouPay, you can let someone know exactly what you want, and they can pay for it instantly. YouPay is perfect for partners, parents, professionals and so much more!</p>
+                        </div></div>
+                        <div class="col-50">
+                            <div class="heavy-padding-box">
+                            <img class="benefits-yp" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-safe-secure.png?v=1651015876" alt="Get what you really want">
+                            <h3>Safe & secure</h3><h3 class="right-teal">at all times.</h3>
+                        <p>YouPay doesn’t require much information to create or pay for your YouPay link (we don’t access or store any payment details), but any information we do require is stored privately and securely – giving both shoppers and payers complete peace of mind when using YouPay. </p>
+                    </div> </div>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="faq">
+            <div class="full-width-c">
+                <img class="left-banner" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-pattern-banner-left.png?v=1651015876" alt="Patterned Banner">
+                    <div class="yp-container">
+                        <div class="col-33">
+                          <div class="heavy-padding-box">
+                            <h2>Our frequently</h2>
+                            <h3 class="subheading">asked questions</h3>
+                            <p>If you still have questions or require assistance, please visit our full <a href="https://youpay.co/faqs-help/">FAQ page</a> for additional information.</p>
+                        </div></div>
+                        <img class="left-triangle-1" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-left-trianlges.png?v=1651015876" alt="Triangle Pattern">
+
+                        <div class="col-66">
+                            <button class="yp-accordion"><div class="text">Is YouPay free?</div><img class="yp-icon" src="https://youpay.co/wp-content/uploads/2022/02/chevron-pink.png" alt="chevron-icon"></button>
+                            <div class="panel">
+                              <p>Yes, YouPay is free for everyone – our Shoppers (the person receiving the products) and Payers (the person who makes the payment). </p>
+                            </div>
+
+                            <button class="yp-accordion"><div class="text">Is YouPay safe?</div><img class="yp-icon" src="https://youpay.co/wp-content/uploads/2022/02/chevron-pink.png" alt="chevron-icon"></button>
+                            <div class="panel">
+                              <p>Yes. We keep your name and address private from your Payer or Shopper.</p>
+                            </div>
+
+                            <button class="yp-accordion"><div class="text">What is a Shopper?</div><img class="yp-icon" src="https://youpay.co/wp-content/uploads/2022/02/chevron-pink.png" alt="chevron-icon"></button>
+                            <div class="panel">
+                              <p>A Shopper is the person who places the original order and will be receiving the items.</p>
+                            </div>
+
+                            <button class="yp-accordion"><div class="text">What is a Payer?</div><img class="yp-icon" src="https://youpay.co/wp-content/uploads/2022/02/chevron-pink.png" alt="chevron-icon"></button>
+                            <div class="panel">
+                              <p>A Payer is the person who pays for the order. The Shopper sends the Payer a YouPay link to make a purchase.</p>
+                            </div>
+
+                            <button class="yp-accordion"><div class="text">Are YouPay links secure?</div><img class="yp-icon" src="https://youpay.co/wp-content/uploads/2022/02/chevron-pink.png" alt="chevron-icon"></button>
+                            <div class="panel">
+                              <p>Yes, YouPay links are fully encrypted.</p>
+                            </div>
+
+                            <button class="yp-accordion"><div class="text">Who can I send a YouPay link to?</div><img class="yp-icon" src="https://youpay.co/wp-content/uploads/2022/02/chevron-pink.png" alt="chevron-icon"></button>
+                            <div class="panel">
+                              <p>Anyone who wants to pay for you.</p>
+                            </div>
+
+                            <button class="yp-accordion"><div class="text">How does the Payer pay for a YouPay order?</div><img class="yp-icon" src="https://youpay.co/wp-content/uploads/2022/02/chevron-pink.png" alt="chevron-icon"></button>
+                            <div class="panel">
+                              <p>YouPay offers the same payment methods the shop offers for regular payments with the most common being PayPal and credit card.</p>
+                            </div>
+
+                            <button class="yp-accordion"><div class="text">Can you pay a YouPay order with PayPal?</div><img class="yp-icon" src="https://youpay.co/wp-content/uploads/2022/02/chevron-pink.png" alt="chevron-icon"></button>
+                            <div class="panel">
+                              <p>Yes, YouPay supports PayPal and other payment methods including Visa and Mastercard. YouPay uses the shop’s original payment methods to process the Payer’s payment.</p>
+                            </div>
+
+                            <button class="yp-accordion"><div class="text">Does YouPay store my credit card details?</div><img class="yp-icon" src="https://youpay.co/wp-content/uploads/2022/02/chevron-pink.png" alt="chevron-icon"></button>
+                            <div class="panel">
+                              <p>No, we do not. YouPay connects your Payer to the existing payment methods in your chosen shop.</p>
+                            </div>
+                            <script>
+                                  var acc = document.getElementsByClassName("yp-accordion");
+                                  var i;
+
+                                  for (i = 0; i < acc.length; i++) {
+                                    acc[i].addEventListener("click", function() {
+                                      this.classList.toggle("active");
+                                      var panel = this.nextElementSibling;
+                                      if (panel.style.display === "block") {
+                                        panel.style.display = "none";
+                                      } else {
+                                        panel.style.display = "block";
+                                      }
+                                    });
+                                  }
+                             </script>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="moreinfo">
+            <div class="full-width-w">
+                <img class="right-banner" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-pattern-banner-right.png?v=1651015876" alt="Patterned Banner">
+                    <div class="yp-container">
+                        <div class="col-100">
+                            <h1>Are you looking for more information?</h1>
+                            <h3 class="right-teal">check out our website to learn more</h2>
+
+
+                            <div class="right-padding-box">
+                                <a target="_blank" href="https://youpay.co/"><img class="learn-more-button" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-learn-more.png?v=1651015876" alt="Learn More Button"></a>
+                        </div>
+                        </div>
+
+                    </div>
+                    <img class="left-triangle-2" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-left-tri.png?v=1651015876" alt="Triangle Pattern">
+                    <img class="right-triangle-1" src="https://cdn.shopify.com/s/files/1/2320/3313/files/yp-right-tri.png?v=1651015876" alt="Triangle Pattern">
+            </div>
+        </div>
+
+
+
+       </div>
+
+
+<script>
+      window.tolstoyAppKey="0ef569e5-aa01-45d5-827b-87573d804860";
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      s.src = "https://widget.gotolstoy.com/widget/widget.js";
+      document.head.appendChild(s);
+    </script>

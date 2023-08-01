@@ -1,0 +1,101 @@
+<div class="page-width">
+  <div class="grid grid--no-gutters">
+
+    {%- assign isEmpty = true -%}
+
+    {% if section.blocks.size > 0 %}
+      {%- assign isEmpty = false -%}
+    {% endif %}
+
+    {% for block in section.blocks limit: collection_limit %}
+      {%- assign collection = collections[block.settings.collection] -%}
+      {%- assign grid_item_width = 'medium-up--one-third collection--square-large' -%}
+      {% assign background_position = block.settings.focal_point %}
+      {% include 'collection-grid-item-v2' %}
+    {% endfor %}
+
+    {% if isEmpty %}
+      <div class="page-width">
+        <div class="grid">
+          <div class="grid__item">
+            <div class="rte">
+              {{ 'home_page.onboarding.no_content' | t }}
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Collection list v2",
+    "class": "index-section featured-collections-v2",
+    "max_blocks": 15,
+    "blocks": [
+      {
+        "type": "collection",
+        "name": "Collection",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "id": "collection",
+            "type": "collection",
+            "label": "Collection"
+          },
+          {
+            "type": "select",
+            "id": "focal_point",
+            "label": "Focal point",
+            "info": "Used to keep the subject of your photo in view.",
+            "default": "center center",
+            "options": [
+              {
+                "value": "top left",
+                "label": "Top left"
+              },
+              {
+                "value": "top center",
+                "label": "Top center"
+              },
+              {
+                "value": "top right",
+                "label": "Top right"
+              },
+              {
+                "value": "center left",
+                "label": "Left"
+              },
+              {
+                "value": "center center",
+                "label": "Center"
+              },
+              {
+                "value": "center right",
+                "label": "Right"
+              },
+              {
+                "value": "bottom left",
+                "label": "Bottom left"
+              },
+              {
+                "value": "bottom center",
+                "label": "Bottom center"
+              },
+              {
+                "value": "bottom right",
+                "label": "Bottom right"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

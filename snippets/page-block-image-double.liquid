@@ -1,0 +1,56 @@
+{% style %}
+  #image-{{ block.id }} {
+    background-color: {{ block.settings.bg_color }};
+  }
+  #image-{{ block.id }} .image-wrap {
+	padding-bottom: {{ 50 | divided_by: block.settings.image_1.aspect_ratio }}%;
+  }
+  @media screen and (max-width: 768px) {
+	#image-{{ block.id }} .image-wrap {
+      padding-bottom: {{ 100 | divided_by: block.settings.image_1.aspect_ratio }}%;
+    }
+  }
+{% endstyle %}
+
+<div data-subsection data-section-id="{{ block.id }}" data-section-type="image-section" data-align-top="true" class="section-image-double">
+  <div style="max-width: {{ block.settings.wrapper_width }}; {% if block.settings.disable_padding %} text-align:center; {% else %}text-align: center; padding: 60px 0;{% endif %} margin-left: auto; margin-right: auto;" id="image-{{ block.id }}">
+    {% if block.settings.title != blank %}
+      <p class="h2">{{ block.settings.title }}</p>
+    {% endif %}
+    
+    <div {% if block.settings.enable_effects %}data-aos{% endif %}>
+      
+      {% if block.settings.enable_effects %}
+      <div class="img-wrap">
+        <div class="image-wrap" style="height: 0;">
+          {%- assign img_url = block.settings.image_1 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          <img class="feature-row__image lazyload"
+               {% if block.settings.img_width != blank %}style="width:{{ block.settings.img_width }};" {% endif %}
+               data-src="{{ img_url }}"
+               data-widths="[180, 360, 540, 720, 900, 1080]"
+               data-aspectratio="{{ block.settings.image_1.aspect_ratio }}"
+               data-sizes="auto"
+               alt="{{ block.settings.image_1.alt }}">
+        </div>
+
+        <div class="image-wrap" style="height: 0;">
+          {%- assign img_url = block.settings.image_2 | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          <img class="feature-row__image lazyload"
+               {% if block.settings.img_width != blank %}style="width:{{ block.settings.img_width }};" {% endif %}
+               data-src="{{ img_url }}"
+               data-widths="[180, 360, 540, 720, 900, 1080]"
+               data-aspectratio="{{ block.settings.image_2.aspect_ratio }}"
+               data-sizes="auto"
+               alt="{{ block.settings.image_2.alt }}">
+        </div>
+      </div>
+      {% else %}
+      <div class="img-wrap">
+        <img src="{{ block.settings.image_1 | img_url: '1400x' }}" alt="{{ block.settings.image_1.alt | escape }}">
+        <img src="{{ block.settings.image_2 | img_url: '1400x' }}" alt="{{ block.settings.image_2.alt | escape }}">
+      </div>
+      {% endif %}
+      
+    </div>
+  </div>
+</div>

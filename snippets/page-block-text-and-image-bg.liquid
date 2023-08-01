@@ -1,0 +1,17 @@
+{% style %}
+  #text-img-bg-{{ block.id }} { background-color: {{ block.settings.bg_color }}; color: {{ block.settings.text_color }}; }
+{% endstyle %}
+
+<div class="index-section text-and-image-bg" id="text-img-bg-{{ block.id }}">
+  <div class="text-img-bg-content">
+    <div class="inner">
+      {% if block.settings.title != blank %}
+        <h2 class="h3">{{ block.settings.title | escape }}</h2>
+      {% endif %}
+      {% if block.settings.text != blank %}
+        <div class="rte featured-row__subtext">{{ block.settings.text }}</div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="text-img-bg-image" style="background-image: url({{ block.settings.image | img_url: '1400x' }});"></div>
+</div>

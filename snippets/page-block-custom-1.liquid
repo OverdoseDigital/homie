@@ -1,0 +1,26 @@
+<div data-subsection data-section-id="{{ block.id }}" data-section-type="custom">
+  <div class="custom-1-wrap">
+    {% if block.settings.title != blank %}
+    <p class="h2">{{ block.settings.title }}</p>
+    {% endif %}
+    
+    <div class="custom-1-inner">
+      <div class="custom-1-col">
+        <img src="{{ block.settings.column_1_image | img_url: '1400x' }}" alt="{{ block.settings.image.alt | escape }}">
+        <p>{{ block.settings.column_1_text }}</p>
+      </div>
+      <div class="custom-2-col">
+        <img src="{{ block.settings.column_2_image | img_url: '1400x' }}" alt="{{ block.settings.image.alt | escape }}">
+        <p>{{ block.settings.column_2_text }}</p>
+      </div>
+      <div class="custom-3-col">
+        <img src="{{ block.settings.column_3_image | img_url: '1400x' }}" alt="{{ block.settings.image.alt | escape }}">
+        <p>{{ block.settings.column_3_text }}</p>
+      </div>
+      <div class="custom-4-col">
+        <img src="{{ block.settings.column_4_image | img_url: '1400x' }}" alt="{{ block.settings.image.alt | escape }}">
+        <p>{{ block.settings.column_4_text }}</p>
+      </div>
+    </div>
+  </div>
+</div>

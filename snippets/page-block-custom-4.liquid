@@ -1,0 +1,31 @@
+{% style %}
+  #custom-4-{{ block.id }} {
+	background-color: #d9d7da;
+    background-image: url({{ block.settings.bg_image | img_url: '1400x' }});
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+  }
+  @media screen and (max-width: 1040px) {
+	#custom-4-{{ block.id }} {
+		background-image: none;
+	}
+  }
+{% endstyle %}
+
+<div data-subsection data-section-id="{{ block.id }}" data-section-type="custom" id="custom-4-{{ block.id }}" class="custom-4-block">
+  <div class="custom-4-text">
+    {% if block.settings.title != blank %}
+      <p class="h2">{{ block.settings.title }}</p>
+    {% endif %}
+    {% if block.settings.code != blank %}
+      {{ block.settings.code }}
+    {% else %}
+      {{ 'home_page.onboarding.no_content' | t }}
+    {% endif %}
+  </div>
+  <img class="desk-img" src="{{ block.settings.bg_image | img_url: '1400x' }}" alt="{{ block.settings.bg_image.alt | escape }}">
+  {% if block.settings.image_mobile != blank %}
+  <img class="mobi-img" src="{{ block.settings.image_mobile | img_url: '1400x' }}" alt="{{ block.settings.image_mobile.alt | escape }}">
+  {% endif %}
+</div>

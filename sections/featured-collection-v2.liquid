@@ -1,0 +1,63 @@
+{%- assign product_limit = '20' -%}
+{%- assign collection = collections[section.settings.home_featured_products] -%}
+
+<div id="CollectionSection-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="featured-collection" class="featured-collection-v2">
+  {% if section.settings.title != blank %}
+    <div class="section-header">
+      <div class="page-width">
+        <h2 class="section-header__title">
+          <a href="{{ collections[section.settings.home_featured_products].url }}" class="section-header__link">{{ section.settings.title }}</a>
+        </h2>
+      </div>
+    </div>
+  {% endif %}
+
+  <div class="page-width product-slider-container">
+    {%- assign grid_item_width = '' -%}
+    
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {% for product in collections[section.settings.home_featured_products].products limit: product_limit %}
+        <div class="swiper-slide">
+          {% include 'product-grid-item' %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+  </div>
+</div>
+
+{% if settings.quick_shop_enable %}
+  {% for product in collections[section.settings.home_featured_products].products limit: product_limit %}
+    {% include 'quick-shop-modal' %}
+  {% endfor %}
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "Featured collection v2",
+    "class": "index-section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading",
+        "default": "Featured collection v2"
+      },
+      {
+        "type": "collection",
+        "id": "home_featured_products",
+        "label": "Collection"
+      }
+    ],
+    "presets": [{
+      "name": "Featured collection v2",
+      "category": "Collection"
+    }],
+    "blocks" : []
+  }
+{% endschema %}

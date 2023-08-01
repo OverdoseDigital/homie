@@ -1,0 +1,52 @@
+<div data-subsection data-section-id="{{ block.id }}" data-section-type="video-section" id="text-slider-{{ block.id }}" class="text-slider-section">
+
+  {% if block.settings.title != blank %}
+    <p class="h2">{{ block.settings.title }}</p>
+  {% endif %}
+
+  <div class="quotes-wrap">
+
+    <div class="slider-quotes">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          {% if block.settings.quote_1_text != blank %}
+          <div class="swiper-slide">
+            {% if block.settings.quote_1_title != blank %}
+            <p class="h2">{{ block.settings.quote_1_title }}</p>
+            {% endif %}
+            <blockquote>
+              <p>{{ block.settings.quote_1_text }}</p>
+            </blockquote>
+          </div>
+          {% endif %}
+
+          {% if block.settings.quote_2_text != blank %}
+          <div class="swiper-slide">
+            {% if block.settings.quote_2_title != blank %}
+            <p class="h2">{{ block.settings.quote_2_title }}</p>
+            {% endif %}
+            <blockquote>
+              <p>{{ block.settings.quote_2_text }}</p>
+            </blockquote>
+          </div>
+          {% endif %}
+
+          {% if block.settings.quote_3_text != blank %}
+          <div class="swiper-slide">
+            {% if block.settings.quote_3_title != blank %}
+            <p class="h2">{{ block.settings.quote_3_title }}</p>
+            {% endif %}
+            <blockquote>
+              <p>{{ block.settings.quote_3_text }}</p>
+            </blockquote>
+          </div>
+          {% endif %}
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+
+  </div>
+</div>

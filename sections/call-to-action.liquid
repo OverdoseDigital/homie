@@ -1,0 +1,52 @@
+<div class="call-to-action">
+  <div class="page-width">
+    <div class="text-block">
+      {% if section.settings.title != blank %}
+        <h2>{{ section.settings.title | escape }}</h2>
+      {% endif %}
+      {% if section.settings.text != blank %}
+        <div class="rte">{{ section.settings.text }}</div>
+      {% endif %}
+    </div>
+
+    <a href="{{ section.settings.link }}" class="btn btn--inverse">{{ section.settings.linktext }}</a>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Call to action",
+  "settings": [
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Heading",
+      "default": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Lorem ipsum dolor sit amet.</p>"
+    },
+    {
+      "id": "link",
+      "type": "url",
+      "label": "Link URL"
+    },
+    {
+      "id": "linktext",
+      "type": "text",
+      "label": "Link text",
+      "default": "Click here"
+    }
+  ]
+  ,
+  "presets": [
+    {
+      "name": "Call to Action",
+      "category": "Promotional"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,34 @@
+{% style %}
+  {% if block.settings.background_image != blank %}
+    .section-double-text-{{ block.id }} {
+      background-image: url({{ block.settings.background_image | img_url: '1400x' }});
+      background-position: center center;
+      background-repeat: no-repeat;
+     background-size: auto 150%;
+    }
+  {% endif %}
+{% endstyle %}
+
+<div data-subsection data-section-id="{{ block.id }}" data-section-type="image-section" data-align-top="true" class="section-double-text section-double-text-{{ block.id }} {% if block.settings.wide_container %} section-double-text-wide{% endif %}">
+  <div class="double-text-columns">
+    <div class="double-text-column">
+      {% if block.settings.title_1 != blank %}
+      	<h3>{{ block.settings.title_1 }}</h3>
+      {% endif %}
+      
+      {% if block.settings.text_1 != blank %}
+      	{{ block.settings.text_1 }}
+      {% endif %}
+    </div>
+    <div class="double-text-column">
+      {% if block.settings.title_2 != blank %}
+      	<h3>{{ block.settings.title_2 }}</h3>
+      {% endif %}
+      
+      {% if block.settings.text_2 != blank %}
+      	{{ block.settings.text_2 }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+

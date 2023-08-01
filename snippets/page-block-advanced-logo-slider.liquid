@@ -1,0 +1,77 @@
+{% style %}
+  #logo-slider-{{ block.id }} .slider-logo img {
+    height: {{ block.settings.img_height }}px;
+  }
+  #logo-slider-{{ block.id }} {
+	background-color: {{ block.settings.bg_color }};
+	color: {{ block.settings.text_color }};
+  }
+{% endstyle %}
+
+<div data-subsection data-section-id="{{ block.id }}" data-section-type="video-section" id="logo-slider-{{ block.id }}" class="advanced-logo-slider-section">
+  {% if block.settings.title != blank %}
+  	<p class="h2">{{ block.settings.title }}</p>
+  {% endif %}
+  <div class="logos-wrap">
+
+    <div class="slider-logo">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          {% if block.settings.logo_1 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_1 | img_url: '1400x' }}" alt="{{ block.settings.logo_1.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_2 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_2 | img_url: '1400x' }}" alt="{{ block.settings.logo_2.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_3 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_3 | img_url: '1400x' }}" alt="{{ block.settings.logo_3.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_4 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_4 | img_url: '1400x' }}" alt="{{ block.settings.logo_4.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_5 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_5 | img_url: '1400x' }}" alt="{{ block.settings.logo_5.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_6 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_6 | img_url: '1400x' }}" alt="{{ block.settings.logo_6.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_7 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_7 | img_url: '1400x' }}" alt="{{ block.settings.logo_7.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_8 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_8 | img_url: '1400x' }}" alt="{{ block.settings.logo_8.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_9 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_9 | img_url: '1400x' }}" alt="{{ block.settings.logo_9.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_10 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_10 | img_url: '1400x' }}" alt="{{ block.settings.logo_10.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_11 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_11 | img_url: '1400x' }}" alt="{{ block.settings.logo_11.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_12 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_12 | img_url: '1400x' }}" alt="{{ block.settings.logo_12.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_13 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_13 | img_url: '1400x' }}" alt="{{ block.settings.logo_13.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_14 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_14 | img_url: '1400x' }}" alt="{{ block.settings.logo_14.alt | escape }}"></div>
+          {% endif %}
+          {% if block.settings.logo_15 != blank %}
+          <div class="swiper-slide"><img src="{{ block.settings.logo_15 | img_url: '1400x' }}" alt="{{ block.settings.logo_15.alt | escape }}"></div>
+          {% endif %}
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+  </div>
+  {% if block.settings.text != blank %}
+  <div class="rte">
+    {{ block.settings.text }}
+  </div>
+  {% endif %}
+</div>

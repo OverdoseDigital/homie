@@ -1,0 +1,538 @@
+{% style %}
+  #text-img-adv-{{ block.id }} {
+  background-color: {{ block.settings.bg_color }};
+  color: {{ block.settings.text_color }};
+  }
+  #text-img-adv-{{ block.id }} a {
+  color: {{ block.settings.text_color }};
+  }
+{% endstyle %}
+
+<div class="index-section text-img-advanced" id="text-img-adv-{{ block.id }}">
+  <div class="page-width">
+    {% if block.settings.supertitle != blank %}
+    <h2 class="supertitle">{{ block.settings.supertitle }}</h2>
+    {% endif %}
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="feature-row" data-aos>
+            <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+              {% if block.settings.subtitle != blank %}
+                <p class="subtitle">{{ block.settings.subtitle }}</p>
+              {% endif %}
+              {% if block.settings.title != blank %}
+                <h2 class="h3">{{ block.settings.title | escape }}</h2>
+              {% endif %}
+              {% if block.settings.subtitle2 != blank %}
+                <p class="subtitle2">{{ block.settings.subtitle2 }}</p>
+              {% endif %}
+              {% if block.settings.text != blank %}
+                <div class="rte featured-row__subtext">{{ block.settings.text }}</div>
+              {% endif %}
+            </div>
+            <div class="feature-row__item">
+              <div style="margin: 0 auto; max-width: 100%;">
+                {% if block.settings.image != blank %}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+                    {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                    {% if block.settings.video_url contains 'youtube.com/watch' %}
+                      {%- assign video_id = block.settings.video_url | split: 'v=' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.video_url contains 'youtu.be/' %}
+                      {%- assign video_id = block.settings.video_url | split: '.be/' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.video_url contains 'vimeo.com' %}
+                      {%- assign video_id = block.settings.video_url | split: '.com/' -%}
+                      {%- assign video_id = video_id[1] | split: '/' | first -%}
+                      <div data-fancybox href="https://vimeo.com/{{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.video_url contains '.mp4' %}
+                      <div data-fancybox data-width="640" data-height="360" href="{{ block.settings.video_url }}">
+                    {% endif %}
+
+                    <img class="feature-row__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080]"
+                        data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.image.alt }}">
+                    {% if block.settings.video_url != blank %}
+                    </div>
+                    {% endif %}
+                  </div>
+                  {% if block.settings.button_label != blank %}
+                  <div class="btn-adv">{{ block.settings.button_label }}</div>
+                  {% endif %}
+                {% else %}
+                  <div class="image-wrap">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="feature-row" data-aos>
+            <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+              {% if block.settings.a_subtitle != blank %}
+                <p class="subtitle">{{ block.settings.a_subtitle }}</p>
+              {% endif %}
+              {% if block.settings.a_title != blank %}
+                <h2 class="h3">{{ block.settings.a_title | escape }}</h2>
+              {% endif %}
+              {% if block.settings.a_subtitle2 != blank %}
+                <p class="subtitle2">{{ block.settings.a_subtitle2 }}</p>
+              {% endif %}
+              {% if block.settings.a_text != blank %}
+                <div class="rte featured-row__subtext">{{ block.settings.a_text }}</div>
+              {% endif %}
+            </div>
+            <div class="feature-row__item">
+              <div style="margin: 0 auto; max-width: 100%;">
+                {% if block.settings.a_image != blank %}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.a_image.aspect_ratio }}%;">
+                    {%- assign img_url = block.settings.a_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                    {% if block.settings.a_video_url contains 'youtube.com/watch' %}
+                      {%- assign video_id = block.settings.a_video_url | split: 'v=' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.a_video_url contains 'youtu.be/' %}
+                      {%- assign video_id = block.settings.a_video_url | split: '.be/' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.a_video_url contains 'vimeo.com' %}
+                      {%- assign video_id = block.settings.a_video_url | split: '.com/' -%}
+                      {%- assign video_id = video_id[1] | split: '/' | first -%}
+                      <div data-fancybox href="https://vimeo.com/{{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.a_video_url contains '.mp4' %}
+                      <div data-fancybox data-width="640" data-height="360" href="{{ block.settings.a_video_url }}">
+                    {% endif %}
+
+                    <img class="feature-row__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080]"
+                        data-aspectratio="{{ block.settings.a_image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.a_image.alt }}">
+                    {% if block.settings.a_video_url != blank %}
+                    </div>
+                    {% endif %}
+                  </div>
+                  {% if block.settings.button_label != blank %}
+                  <div class="btn-adv">{{ block.settings.button_label }}</div>
+                  {% endif %}
+                {% else %}
+                  <div class="image-wrap">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="feature-row" data-aos>
+            <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+              {% if block.settings.b_subtitle != blank %}
+                <p class="subtitle">{{ block.settings.b_subtitle }}</p>
+              {% endif %}
+              {% if block.settings.b_title != blank %}
+                <h2 class="h3">{{ block.settings.b_title | escape }}</h2>
+              {% endif %}
+              {% if block.settings.b_subtitle2 != blank %}
+                <p class="subtitle2">{{ block.settings.b_subtitle2 }}</p>
+              {% endif %}
+              {% if block.settings.b_text != blank %}
+                <div class="rte featured-row__subtext">{{ block.settings.b_text }}</div>
+              {% endif %}
+            </div>
+            <div class="feature-row__item">
+              <div style="margin: 0 auto; max-width: 100%;">
+                {% if block.settings.b_image != blank %}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.b_image.aspect_ratio }}%;">
+                    {%- assign img_url = block.settings.b_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                    {% if block.settings.b_video_url contains 'youtube.com/watch' %}
+                      {%- assign video_id = block.settings.b_video_url | split: 'v=' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.b_video_url contains 'youtu.be/' %}
+                      {%- assign video_id = block.settings.b_video_url | split: '.be/' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.b_video_url contains 'vimeo.com' %}
+                      {%- assign video_id = block.settings.b_video_url | split: '.com/' -%}
+                      {%- assign video_id = video_id[1] | split: '/' | first -%}
+                      <div data-fancybox href="https://vimeo.com/{{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.b_video_url contains '.mp4' %}
+                      <div data-fancybox data-width="640" data-height="360" href="{{ block.settings.b_video_url }}">
+                    {% endif %}
+                    
+                    <img class="feature-row__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080]"
+                        data-aspectratio="{{ block.settings.b_image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.b_image.alt }}">
+                    {% if block.settings.b_video_url != blank %}
+                    </div>
+                    {% endif %}
+                  </div>
+                  {% if block.settings.button_label != blank %}
+                  <div class="btn-adv">{{ block.settings.button_label }}</div>
+                  {% endif %}
+                {% else %}
+                  <div class="image-wrap">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="feature-row" data-aos>
+            <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+              {% if block.settings.c_subtitle != blank %}
+                <p class="subtitle">{{ block.settings.c_subtitle }}</p>
+              {% endif %}
+              {% if block.settings.c_title != blank %}
+                <h2 class="h3">{{ block.settings.c_title | escape }}</h2>
+              {% endif %}
+              {% if block.settings.c_subtitle2 != blank %}
+                <p class="subtitle2">{{ block.settings.c_subtitle2 }}</p>
+              {% endif %}
+              {% if block.settings.c_text != blank %}
+                <div class="rte featured-row__subtext">{{ block.settings.c_text }}</div>
+              {% endif %}
+            </div>
+            <div class="feature-row__item">
+              <div style="margin: 0 auto; max-width: 100%;">
+                {% if block.settings.c_image != blank %}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.c_image.aspect_ratio }}%;">
+                    {%- assign img_url = block.settings.c_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                    {% if block.settings.c_video_url contains 'youtube.com/watch' %}
+                      {%- assign video_id = block.settings.c_video_url | split: 'v=' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.c_video_url contains 'youtu.be/' %}
+                      {%- assign video_id = block.settings.c_video_url | split: '.be/' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.c_video_url contains 'vimeo.com' %}
+                      {%- assign video_id = block.settings.c_video_url | split: '.com/' -%}
+                      {%- assign video_id = video_id[1] | split: '/' | first -%}
+                      <div data-fancybox href="https://vimeo.com/{{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.c_video_url contains '.mp4' %}
+                      <div data-fancybox data-width="640" data-height="360" href="{{ block.settings.c_video_url }}">
+                    {% endif %}
+                    
+                    <img class="feature-row__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080]"
+                        data-aspectratio="{{ block.settings.c_image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.c_image.alt }}">
+                    {% if block.settings.c_video_url != blank %}
+                    </div>
+                    {% endif %}
+                  </div>
+                  {% if block.settings.button_label != blank %}
+                  <div class="btn-adv">{{ block.settings.button_label }}</div>
+                  {% endif %}
+                {% else %}
+                  <div class="image-wrap">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="feature-row" data-aos>
+            <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+              {% if block.settings.d_subtitle != blank %}
+                <p class="subtitle">{{ block.settings.d_subtitle }}</p>
+              {% endif %}
+              {% if block.settings.d_title != blank %}
+                <h2 class="h3">{{ block.settings.d_title | escape }}</h2>
+              {% endif %}
+              {% if block.settings.d_subtitle2 != blank %}
+                <p class="subtitle2">{{ block.settings.d_subtitle2 }}</p>
+              {% endif %}
+              {% if block.settings.d_text != blank %}
+                <div class="rte featured-row__subtext">{{ block.settings.d_text }}</div>
+              {% endif %}
+            </div>
+            <div class="feature-row__item">
+              <div style="margin: 0 auto; max-width: 100%;">
+                {% if block.settings.d_image != blank %}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.d_image.aspect_ratio }}%;">
+                    {%- assign img_url = block.settings.d_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                    {% if block.settings.d_video_url contains 'youtube.com/watch' %}
+                      {%- assign video_id = block.settings.d_video_url | split: 'v=' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.d_video_url contains 'youtu.be/' %}
+                      {%- assign video_id = block.settings.d_video_url | split: '.be/' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.d_video_url contains 'vimeo.com' %}
+                      {%- assign video_id = block.settings.d_video_url | split: '.com/' -%}
+                      {%- assign video_id = video_id[1] | split: '/' | first -%}
+                      <div data-fancybox href="https://vimeo.com/{{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.d_video_url contains '.mp4' %}
+                      <div data-fancybox data-width="640" data-height="360" href="{{ block.settings.d_video_url }}">
+                    {% endif %}
+                    
+                    <img class="feature-row__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080]"
+                        data-aspectratio="{{ block.settings.d_image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.d_image.alt }}">
+                    {% if block.settings.d_video_url != blank %}
+                    </div>
+                    {% endif %}
+                  </div>
+                  {% if block.settings.button_label != blank %}
+                  <div class="btn-adv">{{ block.settings.button_label }}</div>
+                  {% endif %}
+                {% else %}
+                  <div class="image-wrap">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="feature-row" data-aos>
+            <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+              {% if block.settings.e_subtitle != blank %}
+                <p class="subtitle">{{ block.settings.e_subtitle }}</p>
+              {% endif %}
+              {% if block.settings.e_title != blank %}
+                <h2 class="h3">{{ block.settings.e_title | escape }}</h2>
+              {% endif %}
+              {% if block.settings.e_subtitle2 != blank %}
+                <p class="subtitle2">{{ block.settings.e_subtitle2 }}</p>
+              {% endif %}
+              {% if block.settings.e_text != blank %}
+                <div class="rte featured-row__subtext">{{ block.settings.e_text }}</div>
+              {% endif %}
+            </div>
+            <div class="feature-row__item">
+              <div style="margin: 0 auto; max-width: 100%;">
+                {% if block.settings.e_image != blank %}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.e_image.aspect_ratio }}%;">
+                    {%- assign img_url = block.settings.e_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                    {% if block.settings.e_video_url contains 'youtube.com/watch' %}
+                      {%- assign video_id = block.settings.e_video_url | split: 'v=' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.e_video_url contains 'youtu.be/' %}
+                      {%- assign video_id = block.settings.e_video_url | split: '.be/' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.e_video_url contains 'vimeo.com' %}
+                      {%- assign video_id = block.settings.e_video_url | split: '.com/' -%}
+                      {%- assign video_id = video_id[1] | split: '/' | first -%}
+                      <div data-fancybox href="https://vimeo.com/{{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.e_video_url contains '.mp4' %}
+                      <div data-fancybox data-width="640" data-height="360" href="{{ block.settings.e_video_url }}">
+                    {% endif %}
+                    
+                    <img class="feature-row__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080]"
+                        data-aspectratio="{{ block.settings.e_image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.e_image.alt }}">
+                    {% if block.settings.e_video_url != blank %}
+                    </div>
+                    {% endif %}
+                  </div>
+                  {% if block.settings.button_label != blank %}
+                  <div class="btn-adv">{{ block.settings.button_label }}</div>
+                  {% endif %}
+                {% else %}
+                  <div class="image-wrap">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="feature-row" data-aos>
+            <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+              {% if block.settings.f_subtitle != blank %}
+                <p class="subtitle">{{ block.settings.f_subtitle }}</p>
+              {% endif %}
+              {% if block.settings.f_title != blank %}
+                <h2 class="h3">{{ block.settings.f_title | escape }}</h2>
+              {% endif %}
+              {% if block.settings.f_subtitle2 != blank %}
+                <p class="subtitle2">{{ block.settings.f_subtitle2 }}</p>
+              {% endif %}
+              {% if block.settings.f_text != blank %}
+                <div class="rte featured-row__subtext">{{ block.settings.f_text }}</div>
+              {% endif %}
+            </div>
+            <div class="feature-row__item">
+              <div style="margin: 0 auto; max-width: 100%;">
+                {% if block.settings.f_image != blank %}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.f_image.aspect_ratio }}%;">
+                    {%- assign img_url = block.settings.f_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                    {% if block.settings.f_video_url contains 'youtube.com/watch' %}
+                      {%- assign video_id = block.settings.f_video_url | split: 'v=' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.f_video_url contains 'youtu.be/' %}
+                      {%- assign video_id = block.settings.f_video_url | split: '.be/' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.f_video_url contains 'vimeo.com' %}
+                      {%- assign video_id = block.settings.f_video_url | split: '.com/' -%}
+                      {%- assign video_id = video_id[1] | split: '/' | first -%}
+                      <div data-fancybox href="https://vimeo.com/{{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.f_video_url contains '.mp4' %}
+                      <div data-fancybox data-width="640" data-height="360" href="{{ block.settings.f_video_url }}">
+                    {% endif %}
+                    
+                    <img class="feature-row__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080]"
+                        data-aspectratio="{{ block.settings.f_image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.f_image.alt }}">
+                    {% if block.settings.f_video_url != blank %}
+                    </div>
+                    {% endif %}
+                  </div>
+                  {% if block.settings.button_label != blank %}
+                  <div class="btn-adv">{{ block.settings.button_label }}</div>
+                  {% endif %}
+                {% else %}
+                  <div class="image-wrap">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="feature-row" data-aos>
+            <div class="feature-row__item feature-row__text feature-row__text--right larger-text">
+              {% if block.settings.g_subtitle != blank %}
+                <p class="subtitle">{{ block.settings.g_subtitle }}</p>
+              {% endif %}
+              {% if block.settings.g_title != blank %}
+                <h2 class="h3">{{ block.settings.g_title | escape }}</h2>
+              {% endif %}
+              {% if block.settings.g_subtitle2 != blank %}
+                <p class="subtitle2">{{ block.settings.g_subtitle2 }}</p>
+              {% endif %}
+              {% if block.settings.g_text != blank %}
+                <div class="rte featured-row__subtext">{{ block.settings.g_text }}</div>
+              {% endif %}
+            </div>
+            <div class="feature-row__item">
+              <div style="margin: 0 auto; max-width: 100%;">
+                {% if block.settings.g_image != blank %}
+                  <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.g_image.aspect_ratio }}%;">
+                    {%- assign img_url = block.settings.g_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                    {% if block.settings.g_video_url contains 'youtube.com/watch' %}
+                      {%- assign video_id = block.settings.g_video_url | split: 'v=' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.g_video_url contains 'youtu.be/' %}
+                      {%- assign video_id = block.settings.g_video_url | split: '.be/' -%}
+                      {%- assign video_id = video_id[1] | split: '&' | first -%}
+                      <div data-fancybox href="https://www.youtube.com/watch?v={{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.g_video_url contains 'vimeo.com' %}
+                      {%- assign video_id = block.settings.g_video_url | split: '.com/' -%}
+                      {%- assign video_id = video_id[1] | split: '/' | first -%}
+                      <div data-fancybox href="https://vimeo.com/{{ video_id }}">
+                    {% endif %}
+                    {% if block.settings.g_video_url contains '.mp4' %}
+                      <div data-fancybox data-width="640" data-height="360" href="{{ block.settings.g_video_url }}">
+                    {% endif %}
+                    
+                    <img class="feature-row__image lazyload"
+                        data-src="{{ img_url }}"
+                        data-widths="[180, 360, 540, 720, 900, 1080]"
+                        data-aspectratio="{{ block.settings.g_image.aspect_ratio }}"
+                        data-sizes="auto"
+                        alt="{{ block.settings.g_image.alt }}">
+                    {% if block.settings.g_video_url != blank %}
+                    </div>
+                    {% endif %}
+                  </div>
+                  {% if block.settings.button_label != blank %}
+                  <div class="btn-adv">{{ block.settings.button_label }}</div>
+                  {% endif %}
+                {% else %}
+                  <div class="image-wrap">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+    <div class="swiper-button-next"></div>
+
+  </div>
+</div>

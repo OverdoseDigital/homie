@@ -1,0 +1,27 @@
+{% style %}
+  #promo-{{ block.id }} {
+    background-color: {{ block.settings.bg_color }};
+	color: {{ block.settings.text_color }};
+  }
+  #promo-{{ block.id }} a {
+	color: {{ block.settings.text_color }};
+	font-weight: bold;
+  }
+  #promo-{{ block.id }} a:after {
+	border-color: {{ block.settings.text_color }};
+  }
+{% endstyle %}
+
+<div data-subsection data-section-id="{{ block.id }}" data-section-type="video-section" id="promo-{{ block.id }}" class="promo-section {% if block.settings.narrow_column %} narrow-promo{% endif %}">
+  <div class="promo-inner">
+
+    {% if block.settings.title != blank %}
+    	<p class="h3">{{ block.settings.title }}</p>
+    {% endif %}
+    
+    {% if block.settings.text != blank %}
+    	<div class="rte">{{ block.settings.text }}</div>
+    {% endif %}
+
+  </div>
+</div>

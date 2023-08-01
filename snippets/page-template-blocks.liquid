@@ -1,0 +1,143 @@
+{% comment %}
+  This file handles each block available on product.sections or page.sections templates.
+  Each block is a near identical duplicate of a section also available on the home page.
+  Exception is sections that had blocks become hard coded options.
+{% endcomment %}
+<div class="page-blocks">
+  {% for block in section.blocks %}
+    <div {{ block.shopify_attributes }}>
+      {% case block.type %}
+
+        {% when 'contact-form' %}
+          {% include 'page-block-contact-form' %}
+
+        {% when 'custom-html' %}
+          {% include 'page-block-custom-html' %}
+
+        {% when 'background-image-text' %}
+          {% include 'page-block-background-image-text' %}
+
+        {% when 'hero-video' %}
+          {% include 'page-block-hero-video' %}
+      
+      	{% when 'video' %}
+          {% include 'page-block-video' %}
+
+        {% when 'image' %}
+          {% include 'page-block-image' %}
+      
+      	{% when 'image-double' %}
+          {% include 'page-block-image-double' %}
+      
+      	{% when 'image-hero' %}
+          {% include 'page-block-image-hero' %}
+      
+      	{% when 'image-hero-inpage' %}
+          {% include 'page-block-image-hero-inpage' %}
+
+        {% when 'image-row' %}
+          {% include 'page-block-image-row' %}
+
+        {% when 'rich-text'%}
+          {% include 'page-block-rich-text' %}
+      
+      	{% when 'rich-text-advanced'%}
+          {% include 'page-block-rich-text-advanced' %}
+      
+      	{% when 'double-text'%}
+          {% include 'page-block-double-text' %}
+      
+      	{% when 'blockquote'%}
+          {% include 'page-block-blockquote' %}
+
+        {% when 'text-and-image' %}
+          {% include 'page-block-text-and-image' %}
+      
+      	{% when 'text-and-image-bg' %}
+          {% include 'page-block-text-and-image-bg' %}
+      
+      	{% when 'text-and-image-advanced' %}
+          {% include 'page-block-text-and-image-advanced' %}
+      
+      	{% when 'text-and-image-custom' %}
+          {% include 'page-block-text-and-image-custom' %}
+      
+      	{% when 'text-and-image-custom-2' %}
+          {% include 'page-block-text-and-image-custom-2' %}
+      
+      	{% when 'text-and-image-custom-3' %}
+          {% include 'page-block-text-and-image-custom-3' %}
+
+        {% when 'text-columns' %}
+          {% include 'page-block-text-columns' %}
+      
+      	{% when 'text-columns-2' %}
+          {% include 'page-block-text-columns-2' %}
+      
+        {% when 'testimonials' %}
+          {% include 'page-block-testimonials' %}
+
+        {% when 'map' %}
+          {% include 'page-block-map' %}
+
+        {% when 'featured-collection' %}
+          {% include 'page-block-featured-collection' %}
+
+        {% when 'fading-images' %}
+          {% include 'page-block-fading-images' %}
+      	
+      	{% when 'custom-1' %}
+      	  {% include 'page-block-custom-1' %}
+      
+      	{% when 'custom-2' %}
+      	  {% include 'page-block-custom-2' %}
+      
+      	{% when 'custom-6' %}
+      	  {% include 'page-block-custom-6' %}
+      
+      	{% when 'custom-3' %}
+      	  {% include 'page-block-custom-3' %}
+      
+      	{% when 'custom-4' %}
+      	  {% include 'page-block-custom-4' %}
+      
+      	{% when 'custom-5' %}
+      	  {% include 'page-block-custom-5' %}
+      
+      	{% when 'section-title' %}
+      	  {% include 'page-block-title' %}
+      
+      	{% when 'quote-slider' %}
+          {% include 'page-block-quote-slider' %}
+      
+      	{% when 'text-slider' %}
+          {% include 'page-block-text-slider' %}
+      
+      	{% when 'logo-slider' %}
+          {% include 'page-block-logo-slider' %}
+      
+      	{% when 'advanced-logo-slider' %}
+          {% include 'page-block-advanced-logo-slider' %}
+      
+      	{% when 'image-slider' %}
+          {% include 'page-block-image-slider' %}
+      
+      	{% when 'newsletter' %}
+          {% include 'page-block-newsletter' %}
+      
+      	{% when 'social' %}
+          {% include 'page-block-social' %}
+      
+      	{% when 'spacer' %}
+          {% include 'page-block-spacer' %}
+      
+      	{% when 'promo' %}
+          {% include 'page-block-promo' %}
+      
+      	{% when 'custom-wtb' %}
+          {% include 'page-block-custom-wtb' %}
+      	
+      {% endcase %}
+    </div>
+  {% endfor %}
+</div>

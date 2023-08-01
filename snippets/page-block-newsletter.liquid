@@ -1,0 +1,38 @@
+<div class="newsletter-{{ block.id }}">
+  <div data-subsection data-section-id="{{ block.id }}" data-section-type="custom" class="section-newsletter">
+    <div class="section-newsletter-wrap">
+      {% if block.settings.title != blank %}
+      <p>{{ block.settings.title }}</p>
+      {% endif %}
+
+      <div>
+        {% form 'customer', id: 'newsletter-footer' %}
+          {% if form.posted_successfully? %}
+            <div class="note note--success">{{ 'general.newsletter_form.newsletter_confirmation' | t }}</div>
+          {% endif %}
+          {% if form.context == 'footer' %}
+            {% if form.errors %}
+              {{ form.errors | default_errors }}
+            {% endif %}
+          {% endif %}
+
+          <label for="Email-{{ block.id }}" class="hidden-label">{{ 'general.newsletter_form.newsletter_email' | t }}</label>
+          <input type="hidden" name="contact[tags]" value="prospect,newsletter">
+          <input type="hidden" name="contact[context]" value="footer">
+          <div class="footer__newsletter">
+            <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}" name="contact[email]" id="Email-{{ block.id }}" class="footer__newsletter-input" autocorrect="off" autocapitalize="off">
+            <div class="newsletter-icon-mail">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M464 64H48C21.5 64 0 85.5 0 112v288c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h416c8.8 0 16 7.2 16 16v41.4c-21.9 18.5-53.2 44-150.6 121.3-16.9 13.4-50.2 45.7-73.4 45.3-23.2.4-56.6-31.9-73.4-45.3C85.2 197.4 53.9 171.9 32 153.4V112c0-8.8 7.2-16 16-16zm416 320H48c-8.8 0-16-7.2-16-16V195c22.8 18.7 58.8 47.6 130.7 104.7 20.5 16.4 56.7 52.5 93.3 52.3 36.4.3 72.3-35.5 93.3-52.3 71.9-57.1 107.9-86 130.7-104.7v205c0 8.8-7.2 16-16 16z"/></svg>
+            </div>
+            <button type="submit" class="footer__newsletter-btn" name="commit">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+       viewBox="0 0 448 512" style="enable-background:new 0 0 448 512;" xml:space="preserve"><style type="text/css">	.st0{fill:#FFFFFF;}</style><path class="st0" d="M311,131.5l-7.1,7.1c-4.7,4.7-4.7,12.3,0,17l83.9,83.4H12c-6.6,0-12,5.4-12,12v10c0,6.6,5.4,12,12,12h375.9
+      L304,356.4c-4.7,4.7-4.7,12.3,0,17l7.1,7.1c4.7,4.7,12.3,4.7,17,0l116.5-116c4.7-4.7,4.7-12.3,0-17L328,131.5
+      C323.3,126.8,315.7,126.8,311,131.5z"/></svg>
+            </button>
+          </div>
+        {% endform %}
+      </div>
+    </div>
+  </div>
+</div>

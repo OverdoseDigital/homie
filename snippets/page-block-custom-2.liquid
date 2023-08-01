@@ -1,0 +1,22 @@
+<div data-subsection data-section-id="{{ block.id }}" data-section-type="custom">
+  <div class="custom-2-wrap" style="background-image:  url({{ block.settings.section_bg | img_url: '1400x' }});background-position: center center; background-repeat: no-repeat; background-size: auto 210%;">
+    {% if block.settings.title != blank %}
+    <p class="h2">{{ block.settings.title }}</p>
+    {% endif %}
+    
+    <div class="custom-2-inner">
+      <div>
+        <h4>{{ block.settings.column_1_title }}</h4>
+        <p>{{ block.settings.column_1_text }}</p>
+      </div>
+      <div>
+        <h4>{{ block.settings.column_2_title }}</h4>
+        <p>{{ block.settings.column_2_text }}</p>
+      </div>
+      <div>
+        <h4>{{ block.settings.column_3_title }}</h4>
+        <p>{{ block.settings.column_3_text }}</p>
+      </div>
+    </div>
+  </div>
+</div>

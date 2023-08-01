@@ -1,0 +1,24 @@
+{% style %}
+  #custom-5-{{ block.id }} {
+	background-color: {{ block.settings.bg_color }};
+	color: {{ block.settings.text_color }};
+  }
+{% endstyle %}
+<div data-subsection data-section-id="{{ block.id }}" data-section-type="custom" id="custom-5-{{ block.id }}" class="custom-5-block">
+  {% if block.settings.title != blank %}
+  	<p class="h2">{{ block.settings.title }}</p>
+  {% endif %}
+  <div class="logos">
+    <img src="{{ block.settings.logo_1 | img_url: '1400x' }}" alt="{{ block.settings.logo_1.alt | escape }}">
+    <img src="{{ block.settings.logo_2 | img_url: '1400x' }}" alt="{{ block.settings.logo_2.alt | escape }}">
+    <img src="{{ block.settings.logo_3 | img_url: '1400x' }}" alt="{{ block.settings.logo_3.alt | escape }}">
+    <img src="{{ block.settings.logo_4 | img_url: '1400x' }}" alt="{{ block.settings.logo_4.alt | escape }}">
+    <img src="{{ block.settings.logo_5 | img_url: '1400x' }}" alt="{{ block.settings.logo_5.alt | escape }}">
+    <img src="{{ block.settings.logo_6 | img_url: '1400x' }}" alt="{{ block.settings.logo_6.alt | escape }}">
+  </div>
+  {% if block.settings.text != blank %}
+  <div class="rte">
+    {{ block.settings.text }}
+  </div>
+  {% endif %}
+</div>

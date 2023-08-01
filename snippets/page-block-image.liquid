@@ -1,0 +1,29 @@
+{% style %}
+  .this-section-{{ block.id }} { background-color: {{ block.settings.bg_color }}; }
+{% endstyle %}
+
+<div class="this-section-{{ block.id }}">
+  <div data-subsection data-section-id="{{ block.id }}" data-section-type="image-section" data-align-top="true" class="section-image" style="max-width:{{ block.settings.img_width }}; margin-left: auto; margin-right: auto;">
+    <div style="{% if block.settings.disable_padding %} text-align:center; {% else %}text-align: center; padding: 30px 0 60px;{% endif %}" id="image-{{ block.id }}" {% if block.settings.enable_effects %}data-aos{% endif %}>
+      {% if block.settings.title != blank %}
+        <p class="h2">{{ block.settings.title }}</p>
+      {% endif %}
+
+      {% if block.settings.enable_effects %}
+      <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: block.settings.image.aspect_ratio }}%;">
+        {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+        <img class="feature-row__image lazyload"
+             {% if block.settings.img_width != blank %}style="width:{{ block.settings.img_width }};" {% endif %}
+             data-src="{{ img_url }}"
+             data-widths="[180, 360, 540, 720, 900, 1080]"
+             data-aspectratio="{{ block.settings.image.aspect_ratio }}"
+             data-sizes="auto"
+             alt="{{ block.settings.image.alt }}">
+      </div>
+      {% else %}
+      <img {% if block.settings.img_width != blank %}style="width:{{ block.settings.img_width }};" {% endif %} src="{{ block.settings.image | img_url: '1400x' }}" alt="{{ block.settings.image.alt | escape }}">
+      {% endif %}
+
+    </div>
+  </div>
+</div>
