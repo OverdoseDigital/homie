@@ -3,7 +3,6 @@
 
   {%- assign tag_count = tag_count | plus: 1 -%}
   {% if tag_count == tag_limit %}
-    {%- assign have_extra_tags = true -%}
     </ul>
     <div id="TagList-{{ section.id }}" class="collapsible-content collapsible-content--all">
       <ul class="tags tags--vertical collapsible-content__inner collapsible-content__inner--no-translate">
@@ -18,4 +17,4 @@
       {{ sub_link.title }}
     </a>
   </li>
-{% endfor %}
+{%- endfor -%}

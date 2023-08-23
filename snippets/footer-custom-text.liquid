@@ -2,7 +2,7 @@
   <p class="footer__title small--hide">{{ block.settings.title }}</p>
   <button type="button" class="footer__title collapsible-trigger collapsible-trigger-btn medium-up--hide" aria-controls="Footer-{{ block.id }}">
     {{ block.settings.title }}
-    {% include 'collapsible-icons' %}
+    {%- render 'collapsible-icons' -%}
   </button>
 {% endif %}
 <div

@@ -26,7 +26,7 @@
       "signup_form_email_label": "E-Mail",
       "signup_form_success": "Wir senden Ihnen eine E-Mail, kurz bevor wir eröffnen!",
       "admin_link_html": "Sind Sie der Geschäftsinhaber? <a href=\"\/admin\" class=\"text-link\">Melden Sie sich hier an<\/a>",
-      "password_link": "Mit Passwort betreten",
+      "password_link": "Passwort",
       "powered_by_shopify_html": "Dieser Shop wird mit Hilfe von {{ shopify }} betrieben werden"
     },
     "breadcrumbs": {
@@ -50,6 +50,7 @@
     },
     "search": {
       "view_more": "Mehr sehen",
+      "collections": "Kollektionen:",
       "pages": "Seiten:",
       "articles": "Artikel:",
       "no_results_html": "Ihre Suche nach \"{{ terms }}\" hat keine Ergebnisse hervorgebracht.",
@@ -82,6 +83,10 @@
       "address_no_results": "Keine Ergebnisse für diese Adresse",
       "address_query_limit_html": "Sie haben die Google- API-Nutzungsgrenze überschritten. Betrachten wir zu einem <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium-Paket<\/a> zu aktualisieren.",
       "auth_error_html": "Es gab ein Problem bei Google Maps Konto zu authentifizieren. Erstellen und die <a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key\">JavaScript- API<\/a> und <a href=\"https:\/\/developers.google.com\/maps\/documentation\/geocoding\/get-api-key\">Geocoding API<\/a> -Berechtigungen der App aktivieren."
+    },
+    "slideshow": {
+      "play_slideshow": "Diashow abspielen",
+      "pause_slideshow": "Pause Diashow"
     }
   },
   "blogs": {
@@ -124,7 +129,8 @@
       "increase_quantity": "Artikelmenge um eins erhöhen",
       "terms": "Ich stimme den Nutzungsbedingungen zu",
       "terms_html": "Ich stimme den <a href='{{ url }}' target='_blank'>Nutzungsbedingungen<\/a> zu",
-      "terms_confirm": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken"
+      "terms_confirm": "Sie müssen den Verkaufsbedingungen zustimmen, um auszuchecken",
+      "max_quantity": "Du kannst nur haben {{ quantity }} von {{ title }} in Ihrem Warenkorbt."
     },
     "label": {
       "quantity": "Menge",
@@ -284,14 +290,20 @@
   },
   "products": {
     "general": {
+      "color_swatch_trigger": "Farbe",
+      "size_trigger": "Größe",
+      "size_chart": "Größentabelle",
       "save_html": "Sparen {{ saved_amount }}",
       "collection_return": "Zurück zur {{ collection }}",
       "next_product": "Nächster: {{ title }}",
       "sale_price": "Sonderpreis",
       "regular_price": "Normaler Preis",
-      "from_text_html": "Von {{ price }}"
+      "from_text_html": "Von {{ price }}",
+      "reviews": "Rezensionen"
     },
     "product": {
+      "description": "Beschreibung",
+      "in_stock_label": "Auf Lager",
       "stock_label": "{{ count }} auf Lager",
       "sold_out": "Ausverkauft",
       "unavailable": "Nicht verfügbar",
@@ -305,6 +317,16 @@
       "waiting_for_stock": "Inventar auf dem Weg",
       "view_in_space": "In Ihrem Bereich ansehen",
       "view_in_space_label": "„Ansicht in Ihrem Raum“ lädt den Artikel im Augmented-Reality-Fenster"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Ansicht speichern Informationen",
+      "check_other_stores": "Prüfen Sie die Verfügbarkeit von anderen Shops",
+      "pick_up_available": "Pickup verfügbar",
+      "pick_up_currently_unavailable": "Pickup derzeit nicht verfügbar",
+      "pick_up_available_at_html": "Pickup verfügbar unter <strong> {{location_name}} <\/strong>",
+      "pick_up_unavailable_at_html": "Pickup derzeit nicht verfügbar unter <strong> {{location_name}} <\/strong>"
     }
   },
   "gift_cards": {

@@ -26,7 +26,7 @@
       "signup_form_email_label": "Courriel",
       "signup_form_success": "Nous vous ferons parvenir un courriel juste avant l'ouverture!",
       "admin_link_html": "Êtes-vous le propriétaire de la boutique? <a href=\"\/admin\" class=\"text-link\">Connectez-vous ici<\/a>.",
-      "password_link": "Entrer avec un mot de passe",
+      "password_link": "Mot de passe",
       "powered_by_shopify_html": "Cette boutique sera propulsée par {{ shopify }}"
     },
     "breadcrumbs": {
@@ -50,6 +50,7 @@
     },
     "search": {
       "view_more": "Voir plus",
+      "collections": "Collections:",
       "pages": "Pages:",
       "articles": "Des articles:",
       "no_results_html": "Votre recherche pour \"{{ terms }}\" n'a pas généré de résultats.",
@@ -82,6 +83,10 @@
       "address_no_results": "Aucun résultat pour cette adresse",
       "address_query_limit_html": "Vous avez dépassé la limite de Google utilisation de l'API. Envisager la mise à niveau à un <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">régime spécial<\/a>.",
       "auth_error_html": "Il y avait un problème authentifier votre compte Google Maps . Créer et activer <a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key\">l'API JavaScript<\/a> et <a href=\"https:\/\/developers.google.com\/maps\/documentation\/geocoding\/get-api-key\">l'API de géocodage<\/a> les autorisations de application."
+    },
+    "slideshow": {
+      "play_slideshow": "Lire le diaporama",
+      "pause_slideshow": "Diaporama Pause"
     }
   },
   "blogs": {
@@ -124,7 +129,8 @@
       "increase_quantity": "Augmenter la quantité de l'article de un",
       "terms": "Je suis d'accord avec les termes et conditions",
       "terms_html": "Je suis d'accord avec les <a href='{{ url }}' target='_blank'>termes et conditions<\/a>",
-      "terms_confirm": "Vous devez accepter les termes et conditions de vente pour vérifier"
+      "terms_confirm": "Vous devez accepter les termes et conditions de vente pour vérifier",
+      "max_quantity": "Vous ne pouvez avoir que {{ quantity }} de {{ title }} dans votre panier."
     },
     "label": {
       "quantity": "Quantité",
@@ -284,14 +290,20 @@
   },
   "products": {
     "general": {
+      "color_swatch_trigger": "Couleur",
+      "size_trigger": "Taille",
+      "size_chart": "Tableau des tailles",
       "save_html": "Épargnez {{ saved_amount }}",
       "collection_return": "Retour à {{ collection }}",
       "next_product": "Suivant: {{ title }}",
       "sale_price": "Prix réduit",
       "regular_price": "Prix régulier",
-      "from_text_html": "À partir de {{ price }}"
+      "from_text_html": "À partir de {{ price }}",
+      "reviews": "Commentaires"
     },
     "product": {
+      "description": "Description",
+      "in_stock_label": "En stock",
       "stock_label": "{{ count }} en stock",
       "sold_out": "Épuisé",
       "unavailable": "Non disponible",
@@ -305,6 +317,16 @@
       "waiting_for_stock": "Inventaire sur le chemin",
       "view_in_space": "Afficher dans votre espace",
       "view_in_space_label": "Affichage dans votre espace, charge l'article dans une fenêtre de réalité augmentée"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "Afficher les informations de magasin",
+      "check_other_stores": "Vérifier la disponibilité dans d'autres magasins",
+      "pick_up_available": "Récupération disponible",
+      "pick_up_currently_unavailable": "Récupération actuellement indisponible",
+      "pick_up_available_at_html": "Récupération disponible à <strong> {{location_name}} <\/strong>",
+      "pick_up_unavailable_at_html": "Récupération actuellement indisponible à <strong> {{location_name}} <\/strong>"
     }
   },
   "gift_cards": {

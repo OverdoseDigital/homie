@@ -1,0 +1,110 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "c58031d5-3969-4337-a838-cbc0ee72bb7b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14881568620611__c58031d5-3969-4337-a838-cbc0ee72bb7b-168015476316352af7-0": {
+          "type": "image",
+          "settings": {
+            "title": "VIP DAYS",
+            "title_size": 80,
+            "subheading": "WHAT THEY ARE AND HOW TO APPLY",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/DSC02552.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/DSC02552.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568620611__c58031d5-3969-4337-a838-cbc0ee72bb7b-168015476316352af7-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "3044aca8-fffc-44ab-a822-cd236e677cd9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14881568620611__3044aca8-fffc-44ab-a822-cd236e677cd9-1680154650039dc30c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT ARE VIP DAYS?"
+          }
+        },
+        "template--14881568620611__3044aca8-fffc-44ab-a822-cd236e677cd9-1680154650039dc30c-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Kohzler Test<br\/><br\/><strong>Each VIP is able to:<\/strong><br\/>1.  Select five free items of brand new HoMie clothing<br\/>2. Access haircuts and beauty services<br\/>3. Access personal care packs<br\/>4.  Enjoy lunch with our friendly team<\/p><p>For those who cannot attend in person, we offer VIP packs. Our aim is to provide a dignified shopping experience, promote social inclusion and help young people affected by homelessness or hardship to feel more connected to their community. <br\/><br\/>We developed our VIP Days to provide young people affected by homelessness or hardship, along with their key support worker, a day where they are treated like the VIP that they are!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568620611__3044aca8-fffc-44ab-a822-cd236e677cd9-1680154650039dc30c-0",
+        "template--14881568620611__3044aca8-fffc-44ab-a822-cd236e677cd9-1680154650039dc30c-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "095ead5c-14d0-4dc5-9498-c4ef625de8ec": {
+      "type": "text-and-image",
+      "custom_css": [
+        "{background-color: #eeeeee;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC00014.jpg",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/DSC01548.jpg",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "APPLY FOR A VIP DAY",
+        "text": "<p>Are you a community service organisation that works with young people aged 12-24, who identify with homelessness or hardship? <\/p>",
+        "button_label": "APPLY NOW",
+        "button_link": "https:\/\/form.typeform.com\/to\/p2jg4auY?typeform-source=www.google.com",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "27400bfe-9492-47d9-8616-78dbde635e0d": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Questions?",
+        "text": "",
+        "show_phone": true,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c58031d5-3969-4337-a838-cbc0ee72bb7b",
+    "3044aca8-fffc-44ab-a822-cd236e677cd9",
+    "095ead5c-14d0-4dc5-9498-c4ef625de8ec",
+    "27400bfe-9492-47d9-8616-78dbde635e0d"
+  ]
+}

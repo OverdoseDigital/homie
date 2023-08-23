@@ -1,0 +1,51 @@
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "disabled": true,
+      "settings": {
+        "announcement_text": "Free shipping and returns",
+        "announcement_link": "",
+        "announcement_closable": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "196feb63-ab75-44db-a9d9-0ce1c29fcebe": {
+          "type": "megamenu",
+          "settings": {
+            "menu_item": "Shop",
+            "promo_image_1": "shopify:\/\/shop_images\/Screen_Shot_2022-05-02_at_9.53.56_am_7f2b6e9e-43d9-4ca9-b8ba-93fc9c147b55.png",
+            "promo_heading_1": "HoMie Core Range",
+            "promo_text_1": "Shop Now",
+            "promo_url_1": "shopify:\/\/collections\/homie-core",
+            "promo_heading_2": "",
+            "promo_text_2": "",
+            "promo_url_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "196feb63-ab75-44db-a9d9-0ce1c29fcebe"
+      ],
+      "custom_css": [],
+      "settings": {
+        "logo": "shopify:\/\/shop_images\/HoMie_Brandmark_Monogram_BLACK_CMYK-PRINT_FA-01_aab35c6a-baf5-4250-a736-1f584f904e6b.png",
+        "desktop_logo_width": 200,
+        "mobile_logo_width": 140,
+        "main_menu_link_list": "kozler-menu-2",
+        "main_menu_alignment": "left-center",
+        "header_sticky": true,
+        "sticky_index": false,
+        "sticky_collection": false
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "c58031d5-3969-4337-a838-cbc0ee72bb7b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14881568620611__c58031d5-3969-4337-a838-cbc0ee72bb7b-168015476316352af7-0": {
+          "type": "image",
+          "settings": {
+            "title": "THE VIP PROGRAM",
+            "title_size": 80,
+            "subheading": "WHAT IT IS AND HOW TO APPLY",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/DSC02552.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/DSC02552.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568620611__c58031d5-3969-4337-a838-cbc0ee72bb7b-168015476316352af7-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "3044aca8-fffc-44ab-a822-cd236e677cd9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14881568620611__3044aca8-fffc-44ab-a822-cd236e677cd9-1680154650039dc30c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT IS THE VIP PROGRAM?"
+          }
+        },
+        "template--14881568620611__3044aca8-fffc-44ab-a822-cd236e677cd9-1680154650039dc30c-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The VIP Program is HoMie’s very first social impact program. It started before we even had a store - and has now supported over 2100 young people affected by homelessness or hardship.<br\/> <br\/>At the core of the VIP Program are our famous VIP Days. At least 12 times a year, HoMie closes our shop to the public and invites young people connected to community support services to come in and shop for free. Each VIP can select five items of brand-new HoMie clothing, receive haircuts, beauty services, and personal care packs, all while enjoying lunch with the HoMie team.<br\/> <br\/>At least once a year, we try to take the VIP Days on the road – heading out to a rural or remote part of the country and connecting with the young people there.<br\/> <br\/>For young people who can’t attend a VIP Day in person, we offer personalised VIP Packs, which includes five items of brand new HoMie clothing chosen personally for them.<br\/><br\/>We developed the VIP Program to provide young people affected by homelessness or hardship with a day of confidence and connection - a day where they can feel like the VIP they are. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568620611__3044aca8-fffc-44ab-a822-cd236e677cd9-1680154650039dc30c-0",
+        "template--14881568620611__3044aca8-fffc-44ab-a822-cd236e677cd9-1680154650039dc30c-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "ddda1c2d-e491-4534-9f46-cf755d339d3f": {
+      "type": "faq",
+      "blocks": {
+        "f423e257-53fb-4235-a6ee-71b8aac52894": {
+          "type": "question",
+          "settings": {
+            "title": "Who does HoMie partner with?",
+            "text": "<p>HoMie partners with community service organisations who work with people affected by or experiencing homelessness, housing providers, mental health services, youth justices services, AOD services and a range of different providers who support young people affected by hardship.<\/p>"
+          }
+        },
+        "template--14881568620611__ddda1c2d-e491-4534-9f46-cf755d339d3f-168955357306cc5167-0": {
+          "type": "question",
+          "settings": {
+            "title": "How many young people come to the VIP Day?",
+            "text": "<p>HoMie can host up to 20 young people from your organisation for a VIP Day.<\/p>"
+          }
+        },
+        "55b35e0c-98c1-4d43-8b0b-e0a5596eca63": {
+          "type": "question",
+          "settings": {
+            "title": "What can the community service partner expect from HoMie?",
+            "text": "<p><em>HoMie will:<\/em><\/p><ul><li>Offer the community service partner a date for the VIP event.<br\/>Send all relevant information and documentation including a contract for the key contact to complete and an invite for young people attending.<\/li><li>Find out any special needs of the VIP’s to maximise outcomes for those attending.<\/li><li>Organise food, staff and clothing to be available on the day to fit the needs of the VIP’s.<\/li><li>Ensure all staff are informed about the community service partner and equipped to deliver a meaningful and safe experience.<\/li><li>Create a safe and comfortable space for VIP’s and ensure smooth operations on the day to the best of our ability.  <\/li><\/ul>"
+          }
+        },
+        "2970adc6-12d2-48ce-95ca-1d4e382024ef": {
+          "type": "question",
+          "settings": {
+            "title": "What if the community service partner can't make it to the store in Fitzroy?",
+            "text": "<p>We offer VIP take home packs for services or young people who cannot make it into our Fitzroy Store due to location, accessibility or other commitments. Take home VIP packs can be made up on the day of your event in store, but these must be organised before the day. Unfortunately we cannot make up VIP packs unless a young person has RSVP’s to the event. <\/p>"
+          }
+        },
+        "template--14881568620611__ddda1c2d-e491-4534-9f46-cf755d339d3f-168955357306cc5167-1": {
+          "type": "question",
+          "settings": {
+            "title": "Does HoMie run VIP Days outside of Melbourne?",
+            "text": "<p>Once a year, HoMie runs a Rural VIP Day outside of Melbourne. In the past, we have partnered with services in Shepparton and Albury\/Wodonga to provide young people in those areas with the HoMie VIP experience. We understand that rural areas have high levels of homelessness and are often under resourced. If you are a rural service wishing to be involved, please share your information with us in the feedback form.<\/p>"
+          }
+        },
+        "2d3f8a2c-7036-46d2-a3de-8e5fbb8bad21": {
+          "type": "question",
+          "settings": {
+            "title": "What happens after the VIP Day?",
+            "text": "<p>The feedback from our Community service partners is extremely important to us. Before the VIP Day, HoMie will send through a feedback form to be completed on behalf of the service. We will take this feedback and use it to communicate our impact to stakeholders, funders and customers. We will also use this feedback to ensure we are providing the best service possible to young people in our community and continue to improve.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "f423e257-53fb-4235-a6ee-71b8aac52894",
+        "template--14881568620611__ddda1c2d-e491-4534-9f46-cf755d339d3f-168955357306cc5167-0",
+        "55b35e0c-98c1-4d43-8b0b-e0a5596eca63",
+        "2970adc6-12d2-48ce-95ca-1d4e382024ef",
+        "template--14881568620611__ddda1c2d-e491-4534-9f46-cf755d339d3f-168955357306cc5167-1",
+        "2d3f8a2c-7036-46d2-a3de-8e5fbb8bad21"
+      ],
+      "settings": {
+        "title": "BEFORE YOU APPLY"
+      }
+    },
+    "bb0a1081-4372-40de-9dfe-f6d3eee84b48": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14881568620611__bb0a1081-4372-40de-9dfe-f6d3eee84b48-16895523246cf1fb5f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "ELIGIBILITY CRITERIA"
+          }
+        },
+        "template--14881568620611__bb0a1081-4372-40de-9dfe-f6d3eee84b48-16895523246cf1fb5f-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>○ Young people aged 12-24<br\/>○ Young people who identify with homelessness or hardship<br\/>○ Community service organisation working with this cohort<br\/>○ Service staff able to attend on the day<br\/>○ Willing to sign a contract agreement on terms of the event<br\/>○ Fill out a feedback survey post event<br\/>○ Arrange transport for young people to attend the event<br\/>○ Young people are able to maintain respectful relationships with all present on the day<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568620611__bb0a1081-4372-40de-9dfe-f6d3eee84b48-16895523246cf1fb5f-0",
+        "template--14881568620611__bb0a1081-4372-40de-9dfe-f6d3eee84b48-16895523246cf1fb5f-1"
+      ],
+      "custom_css": [
+        "{background-color: #eeeeee;}",
+        "{padding-top: 5%;}",
+        "{padding-bottom: 5%;}"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "095ead5c-14d0-4dc5-9498-c4ef625de8ec": {
+      "type": "text-and-image",
+      "custom_css": [],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSC00014.jpg",
+        "image_mask": "none",
+        "image2": "shopify:\/\/shop_images\/DSC01548.jpg",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Ready to apply?",
+        "text": "<p>If you meet all of the criteria above, then please complete our online application form:<\/p>",
+        "button_label": "APPLY NOW",
+        "button_link": "https:\/\/form.typeform.com\/to\/p2jg4auY?typeform-source=www.google.com",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "7b3165a3-256a-41bc-b04a-ccf5a348a750": {
+      "type": "testimonials",
+      "blocks": {
+        "template--14881568620611__7b3165a3-256a-41bc-b04a-ccf5a348a750-16895760387c271c2f-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<h5>“Everyone made our young people feel welcome and special. All our young people left feeling so good about themselves and are still talking about how good the day was.”<\/h5>",
+            "author": "Melbourne City Mission 2023",
+            "author_info": ""
+          }
+        },
+        "template--14881568620611__7b3165a3-256a-41bc-b04a-ccf5a348a750-16895760387c271c2f-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<h5>“Very knowledgeable and informative team that provided strong insights into other support and experiences offered by HoMie. Our Young people were blown away by the generosity and the quality of the clothing - and the food on offer was very nice. The overall experience was awesome, and we hope to have another opportunity for this again in the future.”<\/h5>",
+            "author": "Bunjilwarra YSAS 2023",
+            "author_info": ""
+          }
+        },
+        "template--14881568620611__7b3165a3-256a-41bc-b04a-ccf5a348a750-16895760387c271c2f-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<h5>“As I attended with the group, I saw first-hand the respect from the HoMie staff and felt the inclusive vibes in the space.”<\/h5>",
+            "author": "Bunjilwarra YSAS 2023",
+            "author_info": ""
+          }
+        },
+        "template--14881568620611__7b3165a3-256a-41bc-b04a-ccf5a348a750-16895760387c271c2f-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<h5>“Inclusive, safe and friendly place. I feel that it is also worth mentioning that for some of the young people who attended, it was their first time receiving items such as deodorant and other hygiene products which was extremely valuable for them. It was really beautiful to see the young people walk out of HoMie with their heads held high, a sense of confidence and massive smiles on their faces.”<\/h5>",
+            "author": "Salvation Army, North\/West Metro 2019",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568620611__7b3165a3-256a-41bc-b04a-ccf5a348a750-16895760387c271c2f-0",
+        "template--14881568620611__7b3165a3-256a-41bc-b04a-ccf5a348a750-16895760387c271c2f-2",
+        "template--14881568620611__7b3165a3-256a-41bc-b04a-ccf5a348a750-16895760387c271c2f-1",
+        "template--14881568620611__7b3165a3-256a-41bc-b04a-ccf5a348a750-16895760387c271c2f-3"
+      ],
+      "settings": {
+        "title": "Feedback from Services",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c58031d5-3969-4337-a838-cbc0ee72bb7b",
+    "3044aca8-fffc-44ab-a822-cd236e677cd9",
+    "ddda1c2d-e491-4534-9f46-cf755d339d3f",
+    "bb0a1081-4372-40de-9dfe-f6d3eee84b48",
+    "095ead5c-14d0-4dc5-9498-c4ef625de8ec",
+    "7b3165a3-256a-41bc-b04a-ccf5a348a750"
+  ]
+}

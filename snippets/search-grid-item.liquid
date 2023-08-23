@@ -1,0 +1,21 @@
+<div class="grid__item grid-search {{ grid_item_width}}">
+  <div class="grid-search__page">
+    <a href="{{ item.url }}" class="grid-search__page-link">
+      <span class="grid-search__page-content">
+        <span class="h4">{{ item.title }}</span>
+        {%- if item.object_type == 'article' and item.image -%}
+          {%- render 'image-element',
+            img: item.image,
+            classes: 'grid-product__image',
+            alt: item.title,
+            widths: '180, 360, 540',
+            sizes: sizes,
+            sizeVariable: sizeVariable,
+            fallback: fallback,
+          -%}
+        {%- endif -%}
+        {{ item.content | strip_html | truncatewords: 60 }}
+      </span>
+    </a>
+  </div>
+</div>

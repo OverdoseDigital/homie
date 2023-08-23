@@ -1,0 +1,34 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "3044aca8-fffc-44ab-a822-cd236e677cd9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14881568620611__3044aca8-fffc-44ab-a822-cd236e677cd9-1680154650039dc30c-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h1>Shipping & Returns<\/h1><h3><strong>DELIVERY<\/strong><\/h3><h4>SHIPPING WITHIN AUSTRALIA<\/h4><ul><li>Generally, orders are processed within 1 business day from time of payment.<\/li><li>Currently orders shipped via standard post are delivered within 2 business days within VIC, and 2-4 business days for the rest of Australia.<\/li><li>Standard shipping is free for all orders $125 and over within Australia.<\/li><li>Standard shipping is $8.99 for all orders less than $125 within Australia<\/li><li>Express Shipping is available at checkout, for $10 per order Australia wide.<\/li><li>Delivery times may vary during peak periods including holidays and sales.<\/li><\/ul><h4>INTERNATIONAL SHIPPING<\/h4><ul><li>Delivered in 1-3 weeks from time of postage.<\/li><li>Shipping for all international orders is $30.<\/li><li>Free shipping on all international orders above $300.<\/li><\/ul><h4>LOCAL PICKUP<\/h4><ul><li>Free Local Pickup is available from the HoMie Store at 296 Brunswick Street in Melbourne, during our weekday store opening hours: 11am-6pm Monday-Friday. <\/li><li>Customers will be notified when their order is ready for pick-up in-store via an email to their nominated email address. <\/li><li>Upon collection, customers will be asked to present their order confirmation and\/or a valid form of photo ID.<\/li><li>Orders must be collected from the HoMie Street Store within 14 days of receipt of email confirmation stating that the order is ready for pick-up. If the order is not picked-up within this period, the items may be returned to the store stock and the customer will be issued a refund. <\/li><li>If necessary, our HoMie Store Team will reach out to customers via email in regards to matters relating to the collection of their order.<\/li><li>Gift cards are not available for purchase via Local Pickup.<\/li><li>Orders are processed Monday to Friday, excluding public holidays. <\/li><\/ul><h3><\/h3><h3><strong>RETURNS<\/strong><\/h3><p>You are welcome to exchange or return your online purchase within 60 days of delivery for any reason, providing that it meets the following guidelines:<\/p><ul><li>Returned within 60 days to store or via mail.<\/li><li>Item must be unworn, unwashed, unused with all original tags\/labels attached.<\/li><li>Online purchases may be refunded or exchanged in store. In store purchases may not refunded online, but if you cannot get into a store please contact <a href=\"mailto:store@homie.com.au\">store@homie.com.au<\/a>.<\/li><li>The following items are excluded for return: Gift Cards, Sale\/Clearance items, Face Masks.<\/li><\/ul><p>* One-off pieces from the REBORN range can only be exchanged for an another item or returned for a store credit.<\/p><p><strong>HOW TO RETURN<\/strong><\/p><ul><li>Below are the instructions for return via the Refundid Portal. Alternatively you can get in touch with us at returns@homie.com.au .<\/li><li>Ensure your items are in their original condition, clean and with tags attached.<\/li><\/ul><h1>Returns<\/h1><p>Please enter your order details to access your refund now<\/p><p>Get Refund<\/p><p>Powered by<\/p><ul><li>Enter your details above or click <a href=\"https:\/\/refundid.com\/query-order?shopOrigin=homie-com-au.myshopify.com\"><span style=\"text-decoration:underline\"><strong>here<\/strong><\/span><\/a> to receive your full refund instantly and purchase a pickup or drop-off return shipping label.<\/li><li>Ship your items back to us at HoMie.<\/li><\/ul><p><strong>IN STORE RETURNS<\/strong><\/p><ul><li>Items purchased in store can be returned to our Melbourne store at 2\/296 Brunswick St, Fitzroy, 3065, Victoria. If you are not able to do so get in touch with us at returns@homie.com.au .<\/li><li>Items returned must include proof of purchase. For in-store returns receipt or bank statement is required.<\/li><\/ul><p><strong>ONLINE RETURNS<\/strong><\/p><ul><li>Please address return package to 35- 53 Emma St, Collingwood, 3066 Victoria, with a note with your return that includes your name, order number and whether you’d like a full refund or exchange.<\/li><li>Exchanges for the same item can be made by specifying the desired size change within your returns note. Exchanges are subject to stock availability.<\/li><li>If you’d like to exchange your item for a different item with a higher price, you’ll be required to pay the balance.<\/li><li>Customers are responsible for return shipping costs unless the item is faulty. If you purchased using PayPal, you may be eligible for a refund of your return shipping costs - more info on this <a href=\"https:\/\/www.paypal.com\/au\/webapps\/mpp\/returns\">here<\/a>. <\/li><li>We suggest using a trackable shipping service for your return.<\/li><li>Allow 7-10 days for the items to be returned to the HoMie warehouse. Once received, HoMie will process the refund and notify you via email. Your refund will be credited back to you within a week, depending on the payment method chosen when purchasing.<\/li><li>If the item returned does not meet our Returns and Exchange Policy above your order will be sent back to you.<\/li><\/ul><p>If you have any questions regarding our return policy, you can contact us through our Facebook page or email us at<a href=\"mailto:store@homie.com.au\">store@homie.com.au<\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568620611__3044aca8-fffc-44ab-a822-cd236e677cd9-1680154650039dc30c-1"
+      ],
+      "custom_css": [],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "3044aca8-fffc-44ab-a822-cd236e677cd9"
+  ]
+}

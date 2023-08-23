@@ -1,0 +1,362 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "978057cd-5082-4a81-ad34-524089646344": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "dropdown",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "disabled": true,
+          "settings": {
+            "icon": "globe",
+            "text": "Free worldwide shipping"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 4,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "2dd3a59c-570a-4c61-b465-daf0573f460d": {
+          "type": "size_chart",
+          "settings": {
+            "size_chart": ""
+          }
+        },
+        "3bc79350-0784-4fdf-bd90-08ba25e4b128": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "78826",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        },
+        "c1fcc237-b480-45c2-850b-dcc1cc4e64b5": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping and Returns",
+            "content": "<p>• Standard shipping is free for all orders $125 and over in Australia.<br\/>• Standard shipping is $8.99 for orders less than $125.<br\/>• Express Shipping is available for $10 per order.<br\/>• Shipping for all international orders is $30.<br\/>• Free Local Pickup is available for in stock items from our HoMie Store.<\/p><p><strong>Returns:<\/strong><br\/>You are welcome to exchange or return your online purchase for a full refund within 60 days of delivery for any reason, providing that it meets <a href=\"https:\/\/homie.com.au\/pages\/returns\">our guidelines<\/a>.<\/p><p>Please note: Exclusions apply, click <a href=\"https:\/\/homie.com.au\/pages\/returns\" target=\"_blank\" title=\"https:\/\/homie.com.au\/pages\/returns\">here<\/a> for our full policy.<\/p>",
+            "page": ""
+          }
+        },
+        "46ec9156-5dc6-4456-877f-6d6bedec8a74": {
+          "type": "tab",
+          "settings": {
+            "title": "Care Instructions",
+            "content": "<p>- Gentle machine wash in cold water.<br\/>- Line dry in shade.<br\/>- Warm iron on reverse side.<br\/>- Do not iron on prints or embellishments.<br\/>- Do not bleach. <br\/>- Do not tumble dry.<br\/>- Do not dry clean. <br\/><\/p>",
+            "page": ""
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "disabled": true,
+          "settings": {
+            "title": "Shipping information",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price",
+        "978057cd-5082-4a81-ad34-524089646344",
+        "separator",
+        "variant_picker",
+        "sales_point",
+        "inventory_status",
+        "buy_buttons",
+        "description",
+        "2dd3a59c-570a-4c61-b465-daf0573f460d",
+        "3bc79350-0784-4fdf-bd90-08ba25e4b128",
+        "c1fcc237-b480-45c2-850b-dcc1cc4e64b5",
+        "46ec9156-5dc6-4456-877f-6d6bedec8a74",
+        "tab",
+        "contact",
+        "share"
+      ],
+      "custom_css": [],
+      "settings": {
+        "sku_enable": false,
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "16789410011c19ba54": {
+      "type": "apps",
+      "blocks": {
+        "2828007b-c6af-4c3a-b1cb-701b930e74bd": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "disabled": true,
+          "settings": {
+            "enabled": true,
+            "id": "79226",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "2828007b-c6af-4c3a-b1cb-701b930e74bd"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "1678768312a93ee8e0": {
+      "type": "apps",
+      "blocks": {
+        "eec97588-58be-478f-919c-903e403d8729": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "78831",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "eec97588-58be-478f-919c-903e403d8729"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "disabled": true,
+      "settings": {
+        "max_width": true
+      }
+    },
+    "1678668322fe0ebf07": {
+      "type": "apps",
+      "blocks": {
+        "56ab9b0e-aadc-43dd-aa9f-cc904e97cedc": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "56ab9b0e-aadc-43dd-aa9f-cc904e97cedc"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 3,
+        "products_per_row": 3
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "25b60898-f170-4a38-b96d-3d366a2b3d71": {
+      "type": "testimonials",
+      "blocks": {
+        "template--14881568751683__25b60898-f170-4a38-b96d-3d366a2b3d71-16787678035ada4fd0-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<h4><strong>Yeah booiiiii<\/strong><\/h4><p>Always great quality, Always a great cause. 80% of my wardrobe is Homie now haha. Thanks legends!<\/p>",
+            "image": "shopify:\/\/shop_images\/SS23-Drop4-Sound-_-Vison-Web-Banner.jpg",
+            "author": "Dave G",
+            "author_info": "Seddon, VIC"
+          }
+        },
+        "template--14881568751683__25b60898-f170-4a38-b96d-3d366a2b3d71-16787678035ada4fd0-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<h4><strong>Amazing<\/strong><\/h4><p>The quality of my tracksuit is amazing! I'm wearing it far more than I should. I also ordered the wrong size pant online and when I took it into the store the girls couldn't have been more helpful and lovely doing the exchange.<\/p>",
+            "image": "shopify:\/\/shop_images\/25.png",
+            "author": "Jacinta L",
+            "author_info": "Fitzroy, VIC"
+          }
+        },
+        "template--14881568751683__25b60898-f170-4a38-b96d-3d366a2b3d71-16787678035ada4fd0-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<h4><strong>Love it!<\/strong><\/h4><p>Great fit and very comfy. Would highly recommend purchasing from HoMie, the clothes are of high quality and their mission is so important buying a new top is the least we can do!<\/p>",
+            "image": "shopify:\/\/shop_images\/F649594C-475F-4999-9C95-D55F8116C0B7.png",
+            "author": "Hannah C",
+            "author_info": "Northcote, VIC"
+          }
+        },
+        "template--14881568751683__25b60898-f170-4a38-b96d-3d366a2b3d71-16787678035ada4fd0-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<h4><strong>Great Experience<\/strong><\/h4><p>I had to do a return from an online purchase. I don’t think I have ever had an easier service to return something & change it over for something completely different. Super friendly & amazing service. Will definitely be back<\/p>",
+            "image": "shopify:\/\/shop_images\/E9AB0E9C-4C0D-4F76-90DC-52116EF0465B.png",
+            "author": "Liz L",
+            "author_info": "Surrey Hills,NSW"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568751683__25b60898-f170-4a38-b96d-3d366a2b3d71-16787678035ada4fd0-0",
+        "template--14881568751683__25b60898-f170-4a38-b96d-3d366a2b3d71-16787678035ada4fd0-1",
+        "template--14881568751683__25b60898-f170-4a38-b96d-3d366a2b3d71-16787678035ada4fd0-2",
+        "template--14881568751683__25b60898-f170-4a38-b96d-3d366a2b3d71-16787678035ada4fd0-3"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Every purchase supports people ..",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "16897288488c0b17b1": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "c44e2914-5c5b-4873-8960-d8cbaaad41dc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14881568751683__c44e2914-5c5b-4873-8960-d8cbaaad41dc-1678669056ad23d821-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Care Guide"
+          }
+        },
+        "template--14881568751683__c44e2914-5c5b-4873-8960-d8cbaaad41dc-1678669056ad23d821-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "e7589102-4bb9-4315-92ce-7996e4210984": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568751683__c44e2914-5c5b-4873-8960-d8cbaaad41dc-1678669056ad23d821-0",
+        "template--14881568751683__c44e2914-5c5b-4873-8960-d8cbaaad41dc-1678669056ad23d821-1",
+        "e7589102-4bb9-4315-92ce-7996e4210984"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "1679360680cb74e2ba": {
+      "type": "apps",
+      "blocks": {
+        "a525c75c-2001-4366-b9d5-d298e1619582": {
+          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.index.instagram\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "option_galleries_id": "1",
+            "option_galleries_layout": "0"
+          }
+        }
+      },
+      "block_order": [
+        "a525c75c-2001-4366-b9d5-d298e1619582"
+      ],
+      "custom_css": [
+        "{background-color: #eeeeee; padding-top: 5px; padding-bottom: 5px; text-align: center;}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16789410011c19ba54",
+    "1678768312a93ee8e0",
+    "sub",
+    "1678668322fe0ebf07",
+    "product-recommendations",
+    "collection-return",
+    "25b60898-f170-4a38-b96d-3d366a2b3d71",
+    "16897288488c0b17b1",
+    "c44e2914-5c5b-4873-8960-d8cbaaad41dc",
+    "1679360680cb74e2ba"
+  ]
+}

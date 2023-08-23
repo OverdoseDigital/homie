@@ -1,0 +1,445 @@
+{
+  "sections": {
+    "hero-video": {
+      "type": "hero-video",
+      "disabled": true,
+      "settings": {
+        "title": "SANCTUARY",
+        "title_size": 69,
+        "subheading": "autumn winter collection",
+        "link_text": "",
+        "link": "shopify:\/\/collections\/new-products",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/youtu.be\/WkrAhxuMefA",
+        "overlay_opacity": 30,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "e3f8b1d9-7019-4e2e-8024-51abee29dd79": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14881568424003__e3f8b1d9-7019-4e2e-8024-51abee29dd79-1689745936de68a8d4-0": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "title_size": 62,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Untitled_design_f684330f-2809-4f54-b425-af2b7fec7042.png",
+            "image_mobile": "shopify:\/\/shop_images\/Untitled_design_6bce8f8e-bab3-4506-9224-52b8a1f09d89.png",
+            "parallax_direction": "left",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568424003__e3f8b1d9-7019-4e2e-8024-51abee29dd79-1689745936de68a8d4-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "8f4b9198-ad5a-471c-81d0-0266702406b2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14881568424003__8f4b9198-ad5a-471c-81d0-0266702406b2-1678233938f38858bc-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Every $1 spent gives people the skills & confidence"
+          }
+        },
+        "2656de74-bda7-4f44-b0d4-8d610eaf8578": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "To break the cycle of homelessness in Australia"
+          }
+        },
+        "template--14881568424003__8f4b9198-ad5a-471c-81d0-0266702406b2-1678233938f38858bc-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h3>100% of profits go towards HoMie's mission: <br\/>to support young people affected by homelessness or hardship.<\/h3>"
+          }
+        },
+        "41a322cd-4a55-46d6-9339-d24577718a14": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/pages\/about-homie",
+            "link_text": "Find out more"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568424003__8f4b9198-ad5a-471c-81d0-0266702406b2-1678233938f38858bc-0",
+        "2656de74-bda7-4f44-b0d4-8d610eaf8578",
+        "template--14881568424003__8f4b9198-ad5a-471c-81d0-0266702406b2-1678233938f38858bc-1",
+        "41a322cd-4a55-46d6-9339-d24577718a14"
+      ],
+      "custom_css": [],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "1499789718857-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "jumpers",
+            "focal_point": "top center",
+            "size": "square-small"
+          }
+        },
+        "1499789718857-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "crewnecks",
+            "focal_point": "top center",
+            "size": "square-small"
+          }
+        },
+        "1499789718857-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "short-sleeve-tees",
+            "focal_point": "center center",
+            "size": "wide"
+          }
+        },
+        "31d6d354-05fa-4609-ba0d-d55211419392": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "accessories-1",
+            "focal_point": "center center",
+            "size": "square-small"
+          }
+        }
+      },
+      "block_order": [
+        "1499789718857-0",
+        "1499789718857-1",
+        "1499789718857-5",
+        "31d6d354-05fa-4609-ba0d-d55211419392"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "enable_gutter": false
+      }
+    },
+    "fd6c6060-2d29-4662-b399-3894483911d2": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--14881568424003__fd6c6060-2d29-4662-b399-3894483911d2-1678240071fcd22133-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "2040 People helped",
+            "text": "<p>Young people affected by homelessness or hardship have been supported by HoMie's Programs since 2015.<\/p>"
+          }
+        },
+        "template--14881568424003__fd6c6060-2d29-4662-b399-3894483911d2-1678240071fcd22133-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "trophy",
+            "title": "41 People Graduated",
+            "text": "<p>With an additional 11 currently enrolled. HoMie's Pathway Alliance program gives people the skills and confidence to find retail work. <\/p>"
+          }
+        },
+        "template--14881568424003__fd6c6060-2d29-4662-b399-3894483911d2-1678240071fcd22133-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "package",
+            "title": "Over 10,000 Pieces of Clothing",
+            "text": "<p>We have supported young people in hardship by helping them feel more confident in new clothes.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568424003__fd6c6060-2d29-4662-b399-3894483911d2-1678240071fcd22133-0",
+        "template--14881568424003__fd6c6060-2d29-4662-b399-3894483911d2-1678240071fcd22133-1",
+        "template--14881568424003__fd6c6060-2d29-4662-b399-3894483911d2-1678240071fcd22133-2"
+      ],
+      "settings": {
+        "title": "OUR IMPACT",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "1d0eb92e-e006-42ab-af77-4dda184530d8": {
+      "type": "background-image-text",
+      "disabled": true,
+      "custom_css": [
+        "{background-color: #e56a54;}"
+      ],
+      "settings": {
+        "subtitle": "JOIN US",
+        "title": "HOODIES for HOMELESSNESS",
+        "text": "",
+        "button_label": "FIND OUT MORE",
+        "button_link": "https:\/\/hoodies4homelessness.homie.com.au",
+        "image": "shopify:\/\/shop_images\/H4H-Web-Banner.jpg",
+        "layout": "left",
+        "height": 650,
+        "parallax": false,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "collection-callout": {
+      "type": "collection-callout",
+      "disabled": true,
+      "custom_css": [
+        "{background-color: #eeeeee;}"
+      ],
+      "settings": {
+        "collection": "hoodies4homelessness",
+        "subtitle": "Join Us",
+        "title": "HOODIES 4 HOMELESSNESS",
+        "text": "Help us break the cycle by wearing a hoodie on Wednesday the 19th of April 2023",
+        "cta_text1": "Learn more",
+        "cta_link1": "https:\/\/hoodies4homelessness.homie.com.au",
+        "cta_text2": "",
+        "cta_link2": "",
+        "layout": "right",
+        "divider": false
+      }
+    },
+    "1678945337555259a1": {
+      "type": "apps",
+      "blocks": {
+        "c6745b41-925e-48f0-82ac-bd8f94076dc6": {
+          "type": "shopify:\/\/apps\/rebuy-personalization-engine\/blocks\/rebuy-widget\/a26ae9b9-933b-40bf-bbc6-bf1220bbc4dc",
+          "settings": {
+            "enabled": true,
+            "id": "79228",
+            "product_id_enabled": true,
+            "collection_id_enabled": false
+          }
+        }
+      },
+      "block_order": [
+        "c6745b41-925e-48f0-82ac-bd8f94076dc6"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "5af7f4ea-b0f1-4716-94c6-de4132f10be8": {
+      "type": "featured-collection-switcher",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "title": "Most popular",
+        "collection1": "core-range",
+        "collection2": "",
+        "per_row": 4,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "826965d5-1537-4ee4-b406-d7d28e872de0": {
+      "type": "hotspots",
+      "blocks": {
+        "template--14881568424003__826965d5-1537-4ee4-b406-d7d28e872de0-1678234704a4933b3b-0": {
+          "type": "product",
+          "settings": {
+            "featured_product": "dog-crew-2-0-black",
+            "vertical": 41,
+            "horizontal": 57
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568424003__826965d5-1537-4ee4-b406-d7d28e872de0-1678234704a4933b3b-0"
+      ],
+      "custom_css": [
+        "{background-color: #eeeeee;}"
+      ],
+      "settings": {
+        "title": "SHOP THE LOOK",
+        "heading_size": "h2",
+        "heading_position": "left",
+        "image": "shopify:\/\/shop_images\/000042_1.jpg",
+        "indent_image": false,
+        "image_position": "left",
+        "hotspot_style": "bag",
+        "hotspot_color": "#ff6d6d",
+        "lazyload_images": true
+      }
+    },
+    "6f69b225-2433-4cb3-9761-c12f6a67debe": {
+      "type": "text-columns",
+      "disabled": true,
+      "blocks": {
+        "template--14881568424003__6f69b225-2433-4cb3-9761-c12f6a67debe-1678160893ec34f9b6-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Web-Image05.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "SHOP",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--14881568424003__6f69b225-2433-4cb3-9761-c12f6a67debe-1678160893ec34f9b6-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/MEGA-MENU-IMAGE_Andreas.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "OUR PROGRAMS",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--14881568424003__6f69b225-2433-4cb3-9761-c12f6a67debe-1678160893ec34f9b6-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/MEGA-MENU-IMAGE_copy_90c64ab7-f1b2-4f4a-8d4b-244477afcd9e.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "DONATE",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568424003__6f69b225-2433-4cb3-9761-c12f6a67debe-1678160893ec34f9b6-0",
+        "template--14881568424003__6f69b225-2433-4cb3-9761-c12f6a67debe-1678160893ec34f9b6-1",
+        "template--14881568424003__6f69b225-2433-4cb3-9761-c12f6a67debe-1678160893ec34f9b6-2"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "f9cb2a2c-c81a-48f4-83d1-6eb8dd984256": {
+      "type": "logo-list",
+      "blocks": {
+        "template--14881568424003__f9cb2a2c-c81a-48f4-83d1-6eb8dd984256-1678239808368c24a2-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4.jpg",
+            "link": ""
+          }
+        },
+        "template--14881568424003__f9cb2a2c-c81a-48f4-83d1-6eb8dd984256-1678239808368c24a2-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.jpg",
+            "link": ""
+          }
+        },
+        "template--14881568424003__f9cb2a2c-c81a-48f4-83d1-6eb8dd984256-1678239808368c24a2-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/7.jpg",
+            "link": ""
+          }
+        },
+        "template--14881568424003__f9cb2a2c-c81a-48f4-83d1-6eb8dd984256-1678239808368c24a2-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568424003__f9cb2a2c-c81a-48f4-83d1-6eb8dd984256-1678239808368c24a2-0",
+        "template--14881568424003__f9cb2a2c-c81a-48f4-83d1-6eb8dd984256-1678239808368c24a2-1",
+        "template--14881568424003__f9cb2a2c-c81a-48f4-83d1-6eb8dd984256-1678239808368c24a2-2",
+        "template--14881568424003__f9cb2a2c-c81a-48f4-83d1-6eb8dd984256-1678239808368c24a2-3"
+      ],
+      "settings": {
+        "title": "FEATURED IN",
+        "logo_opacity": 76,
+        "divider": false
+      }
+    },
+    "167935952703df378c": {
+      "type": "apps",
+      "blocks": {
+        "1a9ceabe-3ac0-4852-b0c2-624a34500172": {
+          "type": "shopify:\/\/apps\/growave-loyalty-wishlist\/blocks\/block.index.instagram\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
+          "settings": {
+            "option_galleries_id": "1",
+            "option_galleries_layout": "0"
+          }
+        }
+      },
+      "block_order": [
+        "1a9ceabe-3ac0-4852-b0c2-624a34500172"
+      ],
+      "custom_css": [
+        "{background-color: #eeeeee; padding-top: 5px; padding-bottom: 5px; text-align: center;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true
+      }
+    },
+    "aef3dec7-4de7-4ba1-9dd9-fce8a20dec87": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "Visit us",
+        "title": "OUR STORE",
+        "text": "<p><strong>Our Melbourne flagship store is located at:<\/strong><\/p><p>2\/296 Brunswick St, Fitzroy VIC<\/p><p> 10am-6pm Monday - Friday<br\/>10am-5pm Saturday<br\/> 11am-5pm Sunday<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/PARALLAX-IMAGE.jpg",
+        "layout": "right",
+        "height": 550,
+        "parallax": false,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    }
+  },
+  "order": [
+    "hero-video",
+    "e3f8b1d9-7019-4e2e-8024-51abee29dd79",
+    "8f4b9198-ad5a-471c-81d0-0266702406b2",
+    "featured-collections",
+    "fd6c6060-2d29-4662-b399-3894483911d2",
+    "1d0eb92e-e006-42ab-af77-4dda184530d8",
+    "collection-callout",
+    "1678945337555259a1",
+    "5af7f4ea-b0f1-4716-94c6-de4132f10be8",
+    "826965d5-1537-4ee4-b406-d7d28e872de0",
+    "6f69b225-2433-4cb3-9761-c12f6a67debe",
+    "f9cb2a2c-c81a-48f4-83d1-6eb8dd984256",
+    "167935952703df378c",
+    "aef3dec7-4de7-4ba1-9dd9-fce8a20dec87"
+  ]
+}

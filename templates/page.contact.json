@@ -1,0 +1,50 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Get in touch"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The HoMie Street Store and the HoMie Apparel clothing range are ‘social enterprises’ by Conscious Creative Limited. Conscious Creative Limited is a not-for-profit organisation and Australian charity that was established in February 2015 to support young people affected by homelessness and hardship.<\/p><p>Being a not-for-profit organisation, 100% of HoMie’s profits go towards achieving its mission -to support young people affected by homelessness or hardship.Conscious Creative Limited directors volunteer their time, and the organisation does not have private shareholders.<\/p><h2>Visit Us<\/h2><p>The HoMie Store - 296 Brunswick St, Fitzroy, VIC 3065. Our current opening hours are: <\/p><p> 10am-6pm Thursdays & Fridays<\/p><p> 11am-5pm Saturdays & Sundays<\/p><p><\/p><h2>Contact Us<\/h2><p>For all production, order, stock, or general store enquiries: <a href=\"mailto:store@homie.com.au\">store@homie.com.au<\/a><\/p><p>For general or volunteering enquiries: <a href=\"mailto:info@homie.com.au\">info@homie.com.au<\/a><\/p><p>For all media or marketing enquiries: nick@homie.com.au <\/p><p>For all fundraising\/donation enquiries or activities visit <a href=\"https:\/\/www.mycause.com.au\/charity\/32756\/HoMie\">MyCause<\/a> or our <a href=\"https:\/\/homie.com.au\/pages\/donate\">Donation<\/a> page.<\/p><p>For HoMie Creative enquiries for campaigns or studio hire: creative@homie.com.au <\/p><p>You should expect a response to your enquiry within 3 working days.<\/p><h2><\/h2><h2>Conscious Creative<\/h2><p>ABN 66865167251<br\/>ACN 613129196<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "General Enquiries",
+        "text": "",
+        "show_phone": true,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich-text",
+    "form"
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "title": "About HoMie",
+            "title_size": 80,
+            "subheading": "our mission, impact and story",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/Team.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Team.jpg",
+            "parallax_direction": "left",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR MISSION"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>HoMie is a Melbourne-based streetwear label and social enterprise.<br\/>100% of HoMie’s profits go towards achieving its mission: to support young people affected by homelessness or hardship.<\/p><p><strong>HoMie does so by running two social impact programs:<\/strong><\/p><ol><li>The <strong>HoMie Pathway Alliance<\/strong>, HoMie’s own accredited retail training and paid internship <br\/>for young people (18-25) affected by homelessness or hardship <br\/> 2.  <strong>HoMie’s VIP Days<\/strong>, where young people are welcomed into our store to shop for brand new HoMie garments, <br\/>and enjoy haircuts, beauty services, personal care packs and lunch with our friendly team. <\/li><\/ol>"
+          }
+        },
+        "56724248-578d-4a50-87cc-e69caebc764e": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "HoMie's Programs"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "56724248-578d-4a50-87cc-e69caebc764e"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "3480d38a-9f75-4e8d-a14d-1d87bd31faec": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--14881568489539__3480d38a-9f75-4e8d-a14d-1d87bd31faec-16800522879be9261f-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "charity",
+            "title": "2040 Young People helped",
+            "text": "<p>Young people affected by homelessness or hardship, have been supported from HoMie's programs since 2015<\/p>"
+          }
+        },
+        "b27949c2-1fb9-4396-85f3-b6676928eab8": {
+          "type": "text_block",
+          "settings": {
+            "icon": "gift",
+            "title": "10,412 Items of Clothing",
+            "text": "<p>Provided through VIP Days, where young people come into the HoMie store to shop for free - and VIP Packs that are sent out<\/p>"
+          }
+        },
+        "template--14881568489539__3480d38a-9f75-4e8d-a14d-1d87bd31faec-16800522879be9261f-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "trophy",
+            "title": "41 Graduated",
+            "text": "<p>And 11 more currently enrolled. HoMie's Pathway Alliance program provides people with the skills and confidence to become more work-ready<\/p>"
+          }
+        },
+        "template--14881568489539__3480d38a-9f75-4e8d-a14d-1d87bd31faec-16800522879be9261f-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "calendar",
+            "title": "900+ Hours of Training",
+            "text": "<p>Of Certificate III Retail and personal development training delivered<\/p>"
+          }
+        },
+        "8a631761-1b86-473f-8c5c-14758419456f": {
+          "type": "text_block",
+          "settings": {
+            "icon": "wallet",
+            "title": "8000+ Hours of Employment",
+            "text": "<p>Young people have received 8000+ hours of paid retail training and employment at the HoMie store or HoMie-trained partners <br\/>(Champion and Nike)<\/p>"
+          }
+        },
+        "959a0d64-3b90-48d0-bf69-96698273e8ac": {
+          "type": "text_block",
+          "settings": {
+            "icon": "ribbon",
+            "title": "88% Remain Employed",
+            "text": "<p>Interns who graduate from our Pathway Alliance Program remain employed or are in further educated one year after graduation<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568489539__3480d38a-9f75-4e8d-a14d-1d87bd31faec-16800522879be9261f-0",
+        "b27949c2-1fb9-4396-85f3-b6676928eab8",
+        "template--14881568489539__3480d38a-9f75-4e8d-a14d-1d87bd31faec-16800522879be9261f-1",
+        "template--14881568489539__3480d38a-9f75-4e8d-a14d-1d87bd31faec-16800522879be9261f-2",
+        "8a631761-1b86-473f-8c5c-14758419456f",
+        "959a0d64-3b90-48d0-bf69-96698273e8ac"
+      ],
+      "custom_css": [
+        "{background-color: #eeeeee;}",
+        " {padding-top: 5%;}",
+        " {padding-bottom: 5%;}"
+      ],
+      "settings": {
+        "title": "OUR IMPACT",
+        "align_text": "center",
+        "desktop_columns_per_row": 3,
+        "icon_color": "#000000",
+        "button_label": "",
+        "button_link": "",
+        "divider": false
+      }
+    },
+    "e6607211-7409-43c1-91f4-027aaa644b96": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--14881568489539__e6607211-7409-43c1-91f4-027aaa644b96-168005196782668297-0": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR STORY"
+          }
+        },
+        "template--14881568489539__e6607211-7409-43c1-91f4-027aaa644b96-168005196782668297-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568489539__e6607211-7409-43c1-91f4-027aaa644b96-168005196782668297-0",
+        "template--14881568489539__e6607211-7409-43c1-91f4-027aaa644b96-168005196782668297-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "733c3fb9-5a18-4092-a221-78e28e1689d3": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--14881568489539__733c3fb9-5a18-4092-a221-78e28e1689d3-168005327882de7158-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/A_History_1280_x_700px_2000_x_1125px_4f955a1d-85a3-409c-9600-b976f15a3733.png",
+            "image_mobile": "shopify:\/\/shop_images\/A_History_1280_x_700px_2000_x_1125px_4f955a1d-85a3-409c-9600-b976f15a3733.png",
+            "parallax_direction": "left",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568489539__733c3fb9-5a18-4092-a221-78e28e1689d3-168005327882de7158-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "6a7793fa-77be-485d-b528-f3b1e91946f2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14881568489539__6a7793fa-77be-485d-b528-f3b1e91946f2-168005196782668297-0": {
+          "type": "heading",
+          "settings": {
+            "title": "CLOTHING PRODUCTION"
+          }
+        },
+        "template--14881568489539__6a7793fa-77be-485d-b528-f3b1e91946f2-168005196782668297-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>WHERE ARE YOUR GARMENTS MADE?<\/strong><\/p><p>Being an ethically minded business is important to us. HoMie works closely with Maker and Co. a Sydney-based organisation who work solely ethically approved businesses.<\/p><p>HoMie production takes place in the Shandong Province in China- this business is annually audited by SGS, the world’s leading inspection, verification, testing and certification company. The audit is conducted according to the SMETA Best Practices and SMETA Measurement Criteria, including Labour standards, Health and Safety, Environment and Business Ethics and it is extended to all types of workers at the site.<\/p><p><strong>DO YOU REUSE OR RECYCLE CLOTHING?<\/strong><\/p><p>Yes! Any remaining seasonal stock from HoMie releases is used as part of HoMie's VIP Days, providing young people affected by homelessness with brand new clothing. We also utilise remaining seasonal garments, in addition to other materials and pieces sourced from op shops, second hand stores and factory floors, to produce REBORN garments. <\/p>"
+          }
+        },
+        "c9428404-e650-4ee0-a4f2-5823364c90a2": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "REBORN"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568489539__6a7793fa-77be-485d-b528-f3b1e91946f2-168005196782668297-0",
+        "template--14881568489539__6a7793fa-77be-485d-b528-f3b1e91946f2-168005196782668297-1",
+        "c9428404-e650-4ee0-a4f2-5823364c90a2"
+      ],
+      "custom_css": [],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow",
+    "rich-text",
+    "3480d38a-9f75-4e8d-a14d-1d87bd31faec",
+    "e6607211-7409-43c1-91f4-027aaa644b96",
+    "733c3fb9-5a18-4092-a221-78e28e1689d3",
+    "6a7793fa-77be-485d-b528-f3b1e91946f2"
+  ]
+}

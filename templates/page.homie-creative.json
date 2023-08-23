@@ -1,0 +1,264 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "664c4578-3daf-4e48-a848-4f24e6c80a3d": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 49,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "text_align": "vertical-bottom horizontal-left",
+        "video_url": "https:\/\/vimeo.com\/693843038",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "HoMie Creative"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Our Creative team specialises in video and photography production. <br\/><br\/>By working with us, you are supporting HoMie's mission to support young people affected by homelessness or hardship. <\/p>"
+          }
+        },
+        "56724248-578d-4a50-87cc-e69caebc764e": {
+          "type": "button",
+          "settings": {
+            "link": "shopify:\/\/pages\/contact",
+            "link_text": "Get in touch"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "56724248-578d-4a50-87cc-e69caebc764e"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "4b5a6358-6586-4876-a34c-87a574c12fdf": {
+      "type": "hero-video",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "",
+        "link_text": "",
+        "link": "",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/vimeo.com\/745270503",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "ebb57562-8587-488b-ae33-43bada34e867": {
+      "type": "logo-list",
+      "blocks": {
+        "template--14968338284611__ebb57562-8587-488b-ae33-43bada34e867-logo_image-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Champion_logo_black.png",
+            "link": "https:\/\/www.champion.com.au\/?gclid=Cj0KCQjwn_OlBhDhARIsAG2y6zNgHwX6WNHmBlr-IkWnhf7EtCI_PA2PnhkSS4xbaqdRpXxq4Ez3WL8aAuZbEALw_wcB&gclsrc=aw.ds"
+          }
+        },
+        "template--14968338284611__ebb57562-8587-488b-ae33-43bada34e867-logo_image-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SheetSociety_newLOGO_horizontal_BLACK.png",
+            "link": "https:\/\/sheetsociety.com\/en-au?gclid=Cj0KCQjwn_OlBhDhARIsAG2y6zOlvEFgNye2YRQKSt5Z72-GBLjzCIwF46PZQgJZ2BlBa4LO4renK48aApvyEALw_wcB"
+          }
+        },
+        "template--14968338284611__ebb57562-8587-488b-ae33-43bada34e867-logo_image-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Maybelline_logo.png",
+            "link": "https:\/\/www.maybelline.com.au\/?gclsrc=aw.ds&&gclid=Cj0KCQjwn_OlBhDhARIsAG2y6zM2Fu-ft8Sea_InnUJIcIK3OJqS06BFayDte3649mPpM-kVnPbH1GwaAiGeEALw_wcB&gclsrc=aw.ds"
+          }
+        },
+        "template--14968338284611__ebb57562-8587-488b-ae33-43bada34e867-logo_image-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/headspace-MasterLogo-LAND-NoTag-NoR.png",
+            "link": "https:\/\/headspace.org.au\/"
+          }
+        },
+        "39bc2de9-b98c-4b3d-8532-d9ca69717453": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Logos_Web_CTG-LOGO-HORIZ-1_b6cbcbb9-4ecc-421b-a80f-f7cb280b08bf.png",
+            "link": "https:\/\/www.clothingthegaps.com.au\/?gclid=Cj0KCQjwn_OlBhDhARIsAG2y6zNiWv9tZqj_-SEfVmNXbv4FzqZNjvaNmhxVjCRmrZ_wD9-xHc7R_vkaAqFuEALw_wcB"
+          }
+        },
+        "a7d46842-5636-491e-a91e-dacc4bf38e23": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Xero_logo.jpg",
+            "link": "https:\/\/www.xero.com\/au\/try-now\/accounting\/xero-accounting-software\/?gad=1&gclid=Cj0KCQjwn_OlBhDhARIsAG2y6zPLFqiX_6Z2wWaYrjYpuNriqBe2_haO4DcT8CcnUn9Es2gLgmtQUzQaAoTXEALw_wcB&gclsrc=aw.ds"
+          }
+        },
+        "f6dd6b1b-772e-45b5-ae52-ef373276e8f6": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nobody-logo_1200x630_fd8fc61d-242e-4b10-88b8-534b188dd50d.webp",
+            "link": "https:\/\/nobodydenim.com\/collections\/jeans"
+          }
+        },
+        "035a2380-7a3b-4ad8-8b07-fa2c866ac58b": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5aa1d4_aed6ad57226145808144fc9e24af6081_mv2.webp",
+            "link": "https:\/\/www.queersportingalliance.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "template--14968338284611__ebb57562-8587-488b-ae33-43bada34e867-logo_image-1",
+        "template--14968338284611__ebb57562-8587-488b-ae33-43bada34e867-logo_image-2",
+        "template--14968338284611__ebb57562-8587-488b-ae33-43bada34e867-logo_image-3",
+        "template--14968338284611__ebb57562-8587-488b-ae33-43bada34e867-logo_image-4",
+        "39bc2de9-b98c-4b3d-8532-d9ca69717453",
+        "a7d46842-5636-491e-a91e-dacc4bf38e23",
+        "f6dd6b1b-772e-45b5-ae52-ef373276e8f6",
+        "035a2380-7a3b-4ad8-8b07-fa2c866ac58b"
+      ],
+      "settings": {
+        "title": "Brands we've partnered with",
+        "logo_opacity": 76,
+        "divider": false
+      }
+    },
+    "6a7793fa-77be-485d-b528-f3b1e91946f2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14881568489539__6a7793fa-77be-485d-b528-f3b1e91946f2-168005196782668297-0": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR TEAM"
+          }
+        },
+        "template--14881568489539__6a7793fa-77be-485d-b528-f3b1e91946f2-168005196782668297-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Gregory McCan<\/strong><\/p><p>Gregory is a Director, Cinematographer and Editor based in Melbourne, Australia.<br\/><br\/>Based at WOW Pictures between 2014-19, Gregory has led projects for a variety of clients including: L’Oreal, Maybelline, Peter Alexander, Champion, Tupperware, Specsavers, Just Jeans, TOMS, Portmans, A&D Garage Doors, Vanguard, Smiggle, Radical Yes, Peter Alexander, Rationale & HoMie.<br\/><br\/>Experienced in managing both studio and location shoots, Gregory has a wide array of experience in video production ranging from Commercial, Social, Corporate, E-Commerce, How-to, Narrative to Documentary content.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568489539__6a7793fa-77be-485d-b528-f3b1e91946f2-168005196782668297-0",
+        "template--14881568489539__6a7793fa-77be-485d-b528-f3b1e91946f2-168005196782668297-1"
+      ],
+      "custom_css": [
+        "{background-color: #eeeeee;}",
+        " {padding-top: 5%;}",
+        " {padding-bottom: 5%;}"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "e6607211-7409-43c1-91f4-027aaa644b96": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "template--14881568489539__e6607211-7409-43c1-91f4-027aaa644b96-168005196782668297-0": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR STORY"
+          }
+        },
+        "template--14881568489539__e6607211-7409-43c1-91f4-027aaa644b96-168005196782668297-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568489539__e6607211-7409-43c1-91f4-027aaa644b96-168005196782668297-0",
+        "template--14881568489539__e6607211-7409-43c1-91f4-027aaa644b96-168005196782668297-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "733c3fb9-5a18-4092-a221-78e28e1689d3": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--14881568489539__733c3fb9-5a18-4092-a221-78e28e1689d3-168005327882de7158-0": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/A_History_1280_x_700px_2000_x_1125px_4f955a1d-85a3-409c-9600-b976f15a3733.png",
+            "image_mobile": "shopify:\/\/shop_images\/A_History_1280_x_700px_2000_x_1125px_4f955a1d-85a3-409c-9600-b976f15a3733.png",
+            "parallax_direction": "left",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568489539__733c3fb9-5a18-4092-a221-78e28e1689d3-168005327882de7158-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "262620bd-e619-40e9-9709-e14417883c86": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "664c4578-3daf-4e48-a848-4f24e6c80a3d",
+    "rich-text",
+    "4b5a6358-6586-4876-a34c-87a574c12fdf",
+    "ebb57562-8587-488b-ae33-43bada34e867",
+    "6a7793fa-77be-485d-b528-f3b1e91946f2",
+    "e6607211-7409-43c1-91f4-027aaa644b96",
+    "733c3fb9-5a18-4092-a221-78e28e1689d3",
+    "262620bd-e619-40e9-9709-e14417883c86"
+  ]
+}

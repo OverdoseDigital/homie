@@ -19,7 +19,8 @@
           <label for="CustomerPasswordConfirmation">{{ 'customer.activate_account.password_confirm' | t }}</label>
           <input type="password" value="" name="customer[password_confirmation]" id="CustomerPasswordConfirmation" class="input-full">
 
-          <input type="submit" class="btn" value="{{ 'customer.activate_account.submit' | t }}">
+          <label for="active-account-submit" class="hidden-label">{{ 'customer.activate_account.submit' | t }}</label>
+          <input type="submit" id="active-account-submit" class="btn" value="{{ 'customer.activate_account.submit' | t }}">
         {% endform %}
       </div>
 

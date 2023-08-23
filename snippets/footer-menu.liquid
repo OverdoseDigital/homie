@@ -5,7 +5,7 @@
     </p>
     <button type="button" class="footer__title collapsible-trigger collapsible-trigger-btn medium-up--hide" aria-controls="Footer-{{ block.id }}">
       {{ linklists[block.settings.menu].title }}
-      {% include 'collapsible-icons' %}
+      {%- render 'collapsible-icons' -%}
     </button>
   {% endif %}
   <div
@@ -15,9 +15,9 @@
     <div class="collapsible-content__inner">
       <div class="footer__collapsible{% unless block.settings.show_footer_title %} footer_collapsible--disabled{% endunless %}">
         <ul class="no-bullets site-footer__linklist">
-          {% for link in linklists[block.settings.menu].links %}
+          {%- for link in linklists[block.settings.menu].links -%}
             <li><a href="{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
+          {%- endfor -%}
         </ul>
       </div>
     </div>

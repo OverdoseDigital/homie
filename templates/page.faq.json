@@ -1,0 +1,184 @@
+{
+  "sections": {
+    "b70ce7e5-bab5-41cf-85d3-ded7b9f5dd3f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14881568555075__b70ce7e5-bab5-41cf-85d3-ded7b9f5dd3f-1680761158fa9619e2-0": {
+          "type": "image",
+          "settings": {
+            "title": "The HoMie Pathway Alliance",
+            "title_size": 60,
+            "subheading": "WHAT IT IS AND HOW IT WORKS",
+            "link": "",
+            "link_text": "",
+            "text_align": "vertical-bottom horizontal-left",
+            "image": "shopify:\/\/shop_images\/0K3A5749.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568555075__b70ce7e5-bab5-41cf-85d3-ded7b9f5dd3f-1680761158fa9619e2-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "58d4ea66-5813-4352-ba34-d7611a649407": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14881568555075__58d4ea66-5813-4352-ba34-d7611a649407-1680761437e5b545f9-0": {
+          "type": "heading",
+          "settings": {
+            "title": "1 in 4 people experiencing homelessness in Australia are aged between 12-24 (ABS, 2021)."
+          }
+        },
+        "template--14881568555075__58d4ea66-5813-4352-ba34-d7611a649407-1680761437e5b545f9-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>At HoMie, we believe in young people. We believe homelessness is a situation you can move out of with the right opportunity and support.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568555075__58d4ea66-5813-4352-ba34-d7611a649407-1680761437e5b545f9-0",
+        "template--14881568555075__58d4ea66-5813-4352-ba34-d7611a649407-1680761437e5b545f9-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "dd783c78-035c-4bb8-aff3-d0e870117fd9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14881568555075__dd783c78-035c-4bb8-aff3-d0e870117fd9-1680761437e5b545f9-0": {
+          "type": "heading",
+          "settings": {
+            "title": "HOW IT WORKS"
+          }
+        },
+        "template--14881568555075__dd783c78-035c-4bb8-aff3-d0e870117fd9-1680761437e5b545f9-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>The HoMie Pathway Alliance is HoMie’s certified education and employment program for young people affected by homelessness or hardship. Young people, aged 18-25, apply to join through their community support service. Over the course of eight months, from March to October every year, the Pathway Alliance provides intensive wraparound support for the participants, lowering barriers to employment and education, and creating long-term, life-changing, impact.<\/p>"
+          }
+        },
+        "d3204b5d-2419-4e92-9980-08e258cf695c": {
+          "type": "heading",
+          "settings": {
+            "title": "THE PROGRAM PROVIDES:"
+          }
+        },
+        "a2a1b494-e461-4ca6-bd90-19dfbaf42985": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Paid Education: <\/strong> <br\/>Young people are paid to undertake a Certificate III in Business, co-facilitated by HoMie and a local Registered Training Organisation. Paying the young people to study means they aren’t pressured to choose between education, family duties, or work – they can study while being compensated for their time.<\/p><p><strong>Paid Employment:<br\/><\/strong>Pathway Alliance participants are employed part-time at the HoMie Street Store or at a Pathway Alliance Employer Partner (Champion, Nike,) for six-months of the Pathway Alliance program. The young people work a minimum of three shifts per week during this time period, creating a consistent period of employment, while developing social and professional networks.<\/p><p><strong>Paid Personal and Professional Development:<br\/><\/strong>Throughout the course of the eight-month program, HoMie, and its partners, deliver paid classes and activities for the young people engaged in the program. These include cultural awareness and inclusion training, budgeting and money management, fashion design and modelling workshops, resume and cover letter writing, and mental health and resilience training.<br\/><br\/>When the young people graduate the Pathway Alliance in October, they become part of our HoMie Alumni Program and are invited to ongoing events to stay connected to HoMie and other Alumni.<\/p>"
+          }
+        },
+        "4528f67e-5372-47d3-903b-47882c1dc44e": {
+          "type": "heading",
+          "settings": {
+            "title": "THE IMPACT"
+          }
+        },
+        "8f724849-63aa-48a6-8cfa-36ef1126597d": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>HoMie takes measuring its impact seriously, and we’re proud to say that <strong>88%<\/strong> of Pathway Alliance graduates are employed and\/or enrolled in further education 12-months post-program. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568555075__dd783c78-035c-4bb8-aff3-d0e870117fd9-1680761437e5b545f9-0",
+        "template--14881568555075__dd783c78-035c-4bb8-aff3-d0e870117fd9-1680761437e5b545f9-1",
+        "d3204b5d-2419-4e92-9980-08e258cf695c",
+        "a2a1b494-e461-4ca6-bd90-19dfbaf42985",
+        "4528f67e-5372-47d3-903b-47882c1dc44e",
+        "8f724849-63aa-48a6-8cfa-36ef1126597d"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "d37c8253-016f-457b-9f58-2a8716f2c577": {
+      "type": "testimonials",
+      "blocks": {
+        "template--14881568555075__d37c8253-016f-457b-9f58-2a8716f2c577-1689747979d1d0f787-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "testimonial": "<p>“The [Pathway Alliance] was the best thing I've done with my life. I am so grateful to the HoMie staff and for everyone that has fought for me so much and helped me grow into a better human being.”<\/p>",
+            "author": "2021 Pathway Alliance Graduate",
+            "author_info": ""
+          }
+        },
+        "template--14881568555075__d37c8253-016f-457b-9f58-2a8716f2c577-1689747979d1d0f787-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "testimonial": "<p>“I have more confidence about what I have to offer in a workplace… I get out of bed everyday to go to my shifts and I can’t wait to be there.”<\/p>",
+            "author": "2023 HoMie Pathway Alliance Intern",
+            "author_info": ""
+          }
+        },
+        "template--14881568555075__d37c8253-016f-457b-9f58-2a8716f2c577-1689747979d1d0f787-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "testimonial": "<p>“I’m going to face the future with confidence rather than fear.”<\/p>",
+            "author": "2020 Pathway Alliance Graduate",
+            "author_info": ""
+          }
+        },
+        "template--14881568555075__d37c8253-016f-457b-9f58-2a8716f2c577-1689747979d1d0f787-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "none",
+            "testimonial": "<p>“What I’ve gained the most from being in the Pathway Alliance is a new sense of self - before I came into this, I really doubted myself and my abilities. Just being in a safe space where I’m valued for who I am - it really gave me the opportunity to grow more into myself.”<\/p>",
+            "author": "2023 HoMie Pathway Alliance Intern",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14881568555075__d37c8253-016f-457b-9f58-2a8716f2c577-1689747979d1d0f787-0",
+        "template--14881568555075__d37c8253-016f-457b-9f58-2a8716f2c577-1689747979d1d0f787-1",
+        "template--14881568555075__d37c8253-016f-457b-9f58-2a8716f2c577-1689747979d1d0f787-2",
+        "template--14881568555075__d37c8253-016f-457b-9f58-2a8716f2c577-1689747979d1d0f787-3"
+      ],
+      "settings": {
+        "title": "HEAR WHAT YOUNG PEOPLE HAVE TO SAY",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    }
+  },
+  "order": [
+    "b70ce7e5-bab5-41cf-85d3-ded7b9f5dd3f",
+    "main",
+    "58d4ea66-5813-4352-ba34-d7611a649407",
+    "dd783c78-035c-4bb8-aff3-d0e870117fd9",
+    "d37c8253-016f-457b-9f58-2a8716f2c577"
+  ]
+}

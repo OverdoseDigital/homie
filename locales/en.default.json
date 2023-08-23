@@ -1,5 +1,9 @@
 {
   "general": {
+    "404": {
+      "title": "404 Page Not Found",
+      "subtext_html": "<p>The page you were looking for does not exist.<\/p><p><a href='{{ url }}'>Continue shopping<\/a><\/p>"
+    },
     "accessibility": {
       "skip_to_content": "Skip to content",
       "close_modal": "Close (esc)",
@@ -9,10 +13,6 @@
     "meta": {
       "tags": "Tagged \"{{ tags }}\"",
       "page": "Page {{ page }}"
-    },
-    "404": {
-      "title": "404 Page Not Found",
-      "subtext_html": "<p>The page you were looking for does not exist.<\/p><p><a href='{{ url }}'>Continue shopping<\/a><\/p>"
     },
     "pagination": {
       "previous": "Previous",
@@ -26,7 +26,7 @@
       "signup_form_email_label": "Email",
       "signup_form_success": "We will send you an email right before we open!",
       "admin_link_html": "Store owner? <a href=\"\/admin\" class=\"text-link\">Log in here<\/a>",
-      "password_link": "Enter using password",
+      "password_link": "Password",
       "powered_by_shopify_html": "This shop will be powered by {{ shopify }}"
     },
     "breadcrumbs": {
@@ -50,6 +50,7 @@
     },
     "search": {
       "view_more": "View more",
+      "collections": "Collections:",
       "pages": "Pages:",
       "articles": "Articles:",
       "no_results_html": "Your search for \"{{ terms }}\" did not yield any results.",
@@ -82,6 +83,10 @@
       "address_no_results": "No results for that address",
       "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium Plan<\/a>.",
       "auth_error_html": "There was a problem authenticating your Google Maps account. Create and enable the <a href=\"https:\/\/developers.google.com\/maps\/documentation\/javascript\/get-api-key\">JavaScript API<\/a> and <a href=\"https:\/\/developers.google.com\/maps\/documentation\/geocoding\/get-api-key\">Geocoding API<\/a> permissions of your app."
+    },
+    "slideshow": {
+      "play_slideshow": "Play slideshow",
+      "pause_slideshow": "Pause slideshow"
     }
   },
   "blogs": {
@@ -110,21 +115,22 @@
     "general": {
       "title": "Cart",
       "remove": "Remove",
-      "note": "Is this a gift? Enter a message for the lucky recipient here :)",
+      "note": "Order note",
       "subtotal": "Subtotal",
       "discounts": "Discounts",
-      "shipping_at_checkout": "Shipping, taxes, and discounts codes calculated at checkout.",
+      "shipping_at_checkout": "Shipping, taxes, and discount codes calculated at checkout.",
       "update": "Update cart",
       "checkout": "Check out",
       "empty": "Your cart is currently empty.",
-      "continue_browsing_html": "Continue browsing <a href='{{ url }}'>here<\/a>.",
+      "continue_browsing_html": "<a href='{{ url }}'>Continue shopping<\/a>",
       "close_cart": "Close cart",
       "savings_html": "You're saving {{ savings }}",
       "reduce_quantity": "Reduce item quantity by one",
       "increase_quantity": "Increase item quantity by one",
       "terms": "I agree with the terms and conditions",
       "terms_html": "I agree with the <a href='{{ url }}' target='_blank'>terms and conditions<\/a>",
-      "terms_confirm": "You must agree with the terms and conditions of sales to check out"
+      "terms_confirm": "You must agree with the terms and conditions of sales to check out",
+      "max_quantity": "You can only have {{ quantity }} of {{ title }} in your cart."
     },
     "label": {
       "quantity": "Quantity",
@@ -141,8 +147,7 @@
       "no_matches": "Sorry, there are no products in this collection."
     },
     "sorting": {
-      "title": "Sort",
-      "best_selling": "Best Sellers"
+      "title": "Sort"
     },
     "filters": {
       "title_tags": "Filter",
@@ -285,15 +290,24 @@
   },
   "products": {
     "general": {
+      "color_swatch_trigger": "Color",
+      "size_trigger": "Size",
+      "size_chart": "Size chart",
       "save_html": "Save {{ saved_amount }}",
       "collection_return": "Back to {{ collection }}",
       "next_product": "Next: {{ title }}",
       "sale_price": "Sale price",
       "regular_price": "Regular price",
-      "from_text_html": "from {{ price }}"
+      "from_text_html": "from {{ price }}",
+      "reviews": "Reviews"
     },
     "product": {
-      "stock_label": "{{ count }} in stock",
+      "description": "Description",
+      "in_stock_label": "In stock, ready to ship",
+      "stock_label": {
+        "one": "Low stock - {{ count }} item left",
+        "other": "Low stock - {{ count }} items left"
+      },
       "sold_out": "Sold Out",
       "unavailable": "Unavailable",
       "quantity": "Quantity",
@@ -301,11 +315,21 @@
       "preorder": "Pre-order",
       "include_taxes": "Tax included.",
       "shipping_policy_html": "<a href='{{ link }}'>Shipping<\/a> calculated at checkout.",
-      "will_not_ship_until": "Will not ship until {{ date }}",
-      "will_be_in_stock_after": "Will be in stock after {{ date }}",
+      "will_not_ship_until": "Ready to ship {{ date }}",
+      "will_be_in_stock_after": "Back in stock {{ date }}",
       "waiting_for_stock": "Inventory on the way",
       "view_in_space": "View in your space",
       "view_in_space_label": "View in your space, loads item in augmented reality window"
+    }
+  },
+  "store_availability": {
+    "general": {
+      "view_store_info": "View store information",
+      "check_other_stores": "Check availability at other stores",
+      "pick_up_available": "Pickup available",
+      "pick_up_currently_unavailable": "Pickup currently unavailable",
+      "pick_up_available_at_html": "Pickup available at <strong>{{ location_name }}<\/strong>",
+      "pick_up_unavailable_at_html": "Pickup currently unavailable at <strong>{{ location_name }}<\/strong>"
     }
   },
   "gift_cards": {
@@ -323,26 +347,5 @@
   },
   "date_formats": {
     "month_day_year": "%b %d, %Y"
-  },
-  "shopify": {
-    "links": {
-      "powered_by_shopify": " "
-    },
-    "checkout": {
-      "contact": {
-        "optional_address2_label": "Traditional Place Name (optional)",
-        "city_label": "Suburb"
-      }
-    },
-    "collections": {
-      "sorting": {
-        "best_selling": "Best Sellers",
-        "manual": "Featured",
-        "price_ascending": "Price low-high",
-        "price_descending": "Price high-low",
-        "az": "Product name A-Z",
-        "za": "Product name Z-A"
-      }
-    }
   }
 }

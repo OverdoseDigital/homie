@@ -1,4 +1,4 @@
-{% paginate customer.addresses by 5 %}
+{%- paginate customer.addresses by 5 -%}
 
 <div class="page-width page-content">
 
@@ -84,17 +84,17 @@
             <label for="address_default_address_new" class="inline">{{ 'customer.addresses.set_default' | t }}</label>
           </p>
 
-          <input type="submit" class="btn" value="{{ 'customer.addresses.add' | t }}">
-          <button type="button" class="text-link address-new-toggle">&nbsp;&nbsp;{{ 'customer.addresses.cancel' | t }}</button>
+          <label for="addresses-add-submit" class="hidden-label">{{ 'customer.addresses.add' | t }}</label>
+          <input type="submit" id="addresses-add-submit" class="btn" value="{{ 'customer.addresses.add' | t }}">
+          <p>
+            <label for="addresses-cancel-submit" class="hidden-label">{{ 'customer.addresses.cancel' | t }}</label>
+            <button type="button" id="addresses-cancel-submit" class="text-link address-new-toggle">{{ 'customer.addresses.cancel' | t }}</button>
+          </p>
 
         {% endform %}
       </div>
 
-      {% comment %}
-        List all customer addresses with a unique edit form.
-        Also add pagination in case they have a large number of addresses
-      {% endcomment %}
-      {% for address in customer.addresses %}
+      {%- for address in customer.addresses -%}
         {% if address == customer.default_address %}
           <p class="h4">{{ 'customer.addresses.default' | t }}</p>
         {% endif %}
@@ -167,15 +167,17 @@
               <label for="address_default_address_{{form.id}}" class="inline">{{ 'customer.addresses.set_default' | t }}</label>
             </p>
 
-            <input type="submit" class="btn" value="{{ 'customer.addresses.update' | t }}">
-            <button type="button" class="text-link address-edit-toggle" data-form-id="{{ form.id }}">&nbsp;&nbsp;{{ 'customer.addresses.cancel' | t }}</button>
+            <label for="addresses-update-submit" class="hidden-label">{{ 'customer.addresses.update' | t }}</label>
+            <input type="submit" id="addresses-update-submit" class="btn" value="{{ 'customer.addresses.update' | t }}">
+            <label for="address-edit-toggle" class="hidden-label">{{ 'customer.addresses.cancel' | t }}</label>
+            <button type="button" id="address-edit-toggle" class="text-link address-edit-toggle" data-form-id="{{ form.id }}">&nbsp;&nbsp;{{ 'customer.addresses.cancel' | t }}</button>
           {% endform %}
         </div>
 
-      {% endfor %}
+      {%- endfor -%}
 
-      {% if paginate.pages > 1 %}
-        {% include 'pagination' %}
+      {%- if paginate.pages > 1 -%}
+        {%- render 'pagination', paginate: paginate -%}
       {% endif %}
 
     </div>
@@ -183,4 +185,4 @@
   </div>
 </div>
 
-{% endpaginate %}
+{%- endpaginate -%}

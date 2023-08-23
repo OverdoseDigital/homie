@@ -2,15 +2,7 @@
   <div class="modal__inner">
     <div class="modal__centered">
       <div class="modal__centered-content">
-        {% include 'product-template',
-          description_style: 'default',
-          image_container_width: 'medium',
-          section_id: product.id,
-          social: false,
-          isModal: true,
-          video_looping: false,
-          video_style: 'muted'
-        %}
+        <div id="QuickShopHolder-{{ product.handle }}"></div>
       </div>
 
       <button type="button" class="modal__close js-modal-close text-link">
